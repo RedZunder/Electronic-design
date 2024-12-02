@@ -981,16 +981,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 88.9) (xy 181.61 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27519370-6ed9-4cb1-bbe7-5cfa99f40690")
-	)
-	(wire
-		(pts
 			(xy 100.33 72.39) (xy 106.68 72.39)
 		)
 		(stroke
@@ -998,16 +988,6 @@
 			(type default)
 		)
 		(uuid "515c1454-90cc-4b5a-839d-166f0c9626db")
-	)
-	(wire
-		(pts
-			(xy 176.53 85.09) (xy 176.53 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "591ebfb4-d24d-4757-919a-bf07fa86632e")
 	)
 	(wire
 		(pts
@@ -1082,8 +1062,8 @@
 		(uuid "297a2b1a-0bc8-4b80-8dd4-0d92e02813eb")
 	)
 	(hierarchical_label "Buck_Output"
-		(shape input)
-		(at 181.61 88.9 0)
+		(shape output)
+		(at 132.08 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1897,7 +1877,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 176.53 85.09 90)
+		(at 132.08 110.49 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1906,7 +1886,7 @@
 		(fields_autoplaced yes)
 		(uuid "df4f1523-13e3-4993-8f05-14acaf18e80a")
 		(property "Reference" "#FLG03"
-			(at 174.625 85.09 0)
+			(at 130.175 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1915,7 +1895,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 172.72 85.0899 90)
+			(at 128.27 110.4899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1924,7 +1904,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 85.09 0)
+			(at 132.08 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1933,7 +1913,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 176.53 85.09 0)
+			(at 132.08 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1942,7 +1922,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 176.53 85.09 0)
+			(at 132.08 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
