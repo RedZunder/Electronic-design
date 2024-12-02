@@ -393,7 +393,23 @@
   "sheets": [
     [
       "23b35dcc-615e-4aec-abee-c26cc3d8b906",
-      "Główny"
+      "Root"
+    ],
+    [
+      "f322dacc-209e-46f8-9f8f-6103b236b6bb",
+      "TempSensor"
+    ],
+    [
+      "34ae70cd-ec6d-4009-8d65-9818ae1eafe0",
+      "AudioCodec"
+    ],
+    [
+      "57a337a3-c367-4ad3-adc0-1aeb321dd5f9",
+      "BuckConverter"
+    ],
+    [
+      "64bd70cc-1431-45fc-8946-041e9631b1bb",
+      "AudioAmplifier"
     ]
   ],
   "text_variables": {}
