@@ -428,6 +428,18 @@
 		)
 		(uuid "9fe1ade3-100d-430a-b8e6-3053b092a33a")
 	)
+	(hierarchical_label "TEsting"
+		(shape input)
+		(at 120.65 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "83d23308-eac6-4fba-bcbd-0c3e99f00d80")
+	)
 	(symbol
 		(lib_id "TMP175AIDR:TMP175AIDR")
 		(at 138.43 83.82 0)
