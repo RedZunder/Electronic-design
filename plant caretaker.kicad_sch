@@ -1428,79 +1428,9 @@
 			(uuid "1f91b1d4-0ac4-472b-acdc-642546a8091e")
 		)
 		(instances
-			(project ""
-				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 110.49 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b010461d-d50a-40f9-93b7-3144c4ec5192")
-		(property "Reference" "R2"
-			(at 113.03 50.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 113.03 53.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 108.712 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 110.49 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 110.49 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4ef17353-80d9-4496-a45e-c820095e3aa3")
-		)
-		(pin "2"
-			(uuid "9d949eb4-330c-4d54-9a0e-0e6d7bfa8888")
-		)
-		(instances
 			(project "plant caretaker"
 				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906"
-					(reference "R2")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -1568,7 +1498,7 @@
 			(uuid "4412f921-c7d0-4377-a9bb-767eeecb51ed")
 		)
 		(instances
-			(project ""
+			(project "plant caretaker"
 				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906"
 					(reference "C1")
 					(unit 1)
