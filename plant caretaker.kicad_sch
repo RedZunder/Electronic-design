@@ -689,6 +689,16 @@
 		)
 		(uuid "ee23375f-94b5-4863-913b-f9f83a42f094")
 	)
+	(text "Capacitor should be as \nclose as possible to V source\n"
+		(exclude_from_sim no)
+		(at 153.416 33.274 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "87520da5-7d98-452e-93a7-61d16764043c")
+	)
 	(symbol
 		(lib_id "MCU_Espressif:ESP32-C3")
 		(at 224.79 55.88 0)
