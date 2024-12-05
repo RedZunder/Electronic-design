@@ -5,127 +5,6 @@
 	(uuid "6425e294-6317-43a4-9a0b-9be27cba95d0")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:R"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "TMP175AIDR:TMP175AIDR"
 			(pin_names
 				(offset 1.016)
@@ -418,18 +297,56 @@
 			)
 		)
 	)
-	(wire
-		(pts
-			(xy 156.21 86.36) (xy 156.21 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9fe1ade3-100d-430a-b8e6-3053b092a33a")
-	)
-	(hierarchical_label "TEsting"
+	(hierarchical_label "A1"
 		(shape input)
+		(at 120.65 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "00768920-4c8f-4f23-98a6-a3372aa69480")
+	)
+	(hierarchical_label "A0"
+		(shape input)
+		(at 120.65 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "19924074-8958-4f4a-b31f-340305aa277d")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 156.21 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5bf3bd01-10df-4267-bbc7-702b21011789")
+	)
+	(hierarchical_label "SCL"
+		(shape input)
+		(at 120.65 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "791090f6-9249-4385-9b8b-26afab8be016")
+	)
+	(hierarchical_label "SDA"
+		(shape bidirectional)
 		(at 120.65 91.44 180)
 		(fields_autoplaced yes)
 		(effects
@@ -439,6 +356,42 @@
 			(justify right)
 		)
 		(uuid "83d23308-eac6-4fba-bcbd-0c3e99f00d80")
+	)
+	(hierarchical_label "A2"
+		(shape input)
+		(at 120.65 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "979ff8c7-9a26-4fc6-8ff9-d7c3ee8f415f")
+	)
+	(hierarchical_label "V+"
+		(shape input)
+		(at 156.21 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bcd41898-895e-4720-a6ad-71662de52fd7")
+	)
+	(hierarchical_label "ALERT"
+		(shape output)
+		(at 120.65 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d006092b-2f56-4caa-891b-afaa2f94a26e")
 	)
 	(symbol
 		(lib_id "TMP175AIDR:TMP175AIDR")
@@ -605,216 +558,17 @@
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 156.21 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "71360d75-2618-49dd-9ca7-1ad5655dde3b")
-		(property "Reference" "R2"
-			(at 158.75 73.6599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 158.75 76.1999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.432 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 156.21 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 156.21 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "21d6aa4b-2f04-4609-8050-22bc64175c4a")
-		)
-		(pin "1"
-			(uuid "a7b3d6ad-4efc-47bb-a1bc-5ab1f5f94df2")
-		)
-		(instances
-			(project "plant caretaker"
-				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906/f322dacc-209e-46f8-9f8f-6103b236b6bb"
-					(reference "R2")
+			(project "tempSensor"
+				(path "/6425e294-6317-43a4-9a0b-9be27cba95d0"
+					(reference "U?")
 					(unit 1)
 				)
 			)
 		)
 	)
-	(symbol
-		(lib_id "Device:R")
-		(at 120.65 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c87f00fe-78e0-4b18-9a5f-b94856f1215a")
-		(property "Reference" "R1"
-			(at 123.19 78.7399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 123.19 81.2799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 118.872 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 120.65 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 120.65 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d8d088b6-bd69-4daf-8ede-976f06cf998b")
-		)
-		(pin "1"
-			(uuid "60c6d083-b371-4c65-9030-570eed8b7a96")
-		)
-		(instances
-			(project ""
-				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906/f322dacc-209e-46f8-9f8f-6103b236b6bb"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 156.21 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d6e3a32d-aadb-49b0-bd79-d0f5f094fe17")
-		(property "Reference" "R3"
-			(at 158.75 81.2799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 158.75 83.8199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.432 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 156.21 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 156.21 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3b25fec6-0f5f-42db-a713-9094cc361220")
-		)
-		(pin "1"
-			(uuid "a1af9cea-33b2-492d-83a8-5b9a75fda0ff")
-		)
-		(instances
-			(project "plant caretaker"
-				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906/f322dacc-209e-46f8-9f8f-6103b236b6bb"
-					(reference "R3")
-					(unit 1)
-				)
-			)
+	(sheet_instances
+		(path "/"
+			(page "1")
 		)
 	)
 )
