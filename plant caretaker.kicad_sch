@@ -1075,26 +1075,6 @@
 				(justify left top)
 			)
 		)
-		(pin "A1" input
-			(at 142.24 44.45 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "0ab53749-68dc-4b83-99a7-612b1726f608")
-		)
-		(pin "A0" input
-			(at 142.24 41.91 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "3eef1291-e2a3-4f67-be91-f384004b8baa")
-		)
 		(pin "SCL" input
 			(at 142.24 54.61 180)
 			(effects
@@ -1104,16 +1084,6 @@
 				(justify left)
 			)
 			(uuid "edd59557-805a-4bd4-97ba-687dd92ec5aa")
-		)
-		(pin "A2" input
-			(at 142.24 46.99 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "27f10fe1-16ee-4325-9484-970f3d9a8dae")
 		)
 		(pin "ALERT" output
 			(at 160.02 50.8 0)
@@ -1144,16 +1114,6 @@
 				(justify right)
 			)
 			(uuid "610dbe57-0ba9-46ce-81f1-bad242b97b56")
-		)
-		(pin "GND" passive
-			(at 156.21 62.23 270)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "5bc2509f-5938-452f-9a2d-8a87a08b185b")
 		)
 		(instances
 			(project "plant caretaker"
