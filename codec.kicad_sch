@@ -1471,6 +1471,12 @@
 		(uuid "7f14f2a8-5985-4587-83ba-6584bd081fc5")
 	)
 	(junction
+		(at 85.09 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "827289ee-0756-4c47-a0bf-9129957e3ae4")
+	)
+	(junction
 		(at 237.49 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1626,6 +1632,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 128.27) (xy 85.09 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "290fc901-75c6-491f-b983-77d6da0b15ef")
+	)
+	(wire
+		(pts
 			(xy 45.72 170.18) (xy 53.34 170.18)
 		)
 		(stroke
@@ -1633,6 +1649,16 @@
 			(type default)
 		)
 		(uuid "29b7c363-2c95-411c-b58f-9cd32c803d38")
+	)
+	(wire
+		(pts
+			(xy 147.32 140.97) (xy 147.32 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f2c0937-b477-4334-af97-bdecfb7eef3b")
 	)
 	(wire
 		(pts
@@ -1663,6 +1689,16 @@
 			(type default)
 		)
 		(uuid "3704c66f-b862-4b22-bf81-2545f0e6521b")
+	)
+	(wire
+		(pts
+			(xy 85.09 130.81) (xy 88.9 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "380c5502-c0f7-4ed5-9f53-2030859af531")
 	)
 	(polyline
 		(pts
@@ -1783,6 +1819,16 @@
 			(type default)
 		)
 		(uuid "677121c6-f7db-4f11-89c6-4ef3e4a898a6")
+	)
+	(wire
+		(pts
+			(xy 147.32 120.65) (xy 151.13 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a9e5190-a263-47b1-b151-cebace81b49e")
 	)
 	(wire
 		(pts
@@ -2066,7 +2112,7 @@
 	)
 	(polyline
 		(pts
-			(xy 107.95 119.38) (xy 107.95 196.85)
+			(xy 108.204 116.078) (xy 108.204 196.85)
 		)
 		(stroke
 			(width 0)
@@ -2116,7 +2162,7 @@
 	)
 	(polyline
 		(pts
-			(xy 15.24 119.38) (xy 107.95 119.38)
+			(xy 15.494 116.078) (xy 108.204 116.078)
 		)
 		(stroke
 			(width 0)
@@ -2126,7 +2172,7 @@
 	)
 	(polyline
 		(pts
-			(xy 15.24 119.38) (xy 15.24 195.58)
+			(xy 15.494 116.078) (xy 15.494 195.58)
 		)
 		(stroke
 			(width 0)
@@ -2193,6 +2239,16 @@
 			(type default)
 		)
 		(uuid "e5caa01b-f3db-4de4-a001-4aa3c0b39d8d")
+	)
+	(wire
+		(pts
+			(xy 81.28 130.81) (xy 85.09 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6a54e4c-080a-4d84-bec5-febb649114a2")
 	)
 	(wire
 		(pts
@@ -2264,15 +2320,38 @@
 		)
 		(uuid "ff490411-1077-4a1d-a961-a8bba1b2bf2e")
 	)
-	(text "VDDA AND VDDD"
+	(text "VDDA & VDDD & GND"
 		(exclude_from_sim no)
-		(at 39.624 117.602 0)
+		(at 58.42 113.03 0)
 		(effects
 			(font
-				(size 2.032 2.032)
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
 			)
 		)
 		(uuid "55d88183-1b19-43ef-9ea8-16ae66293d9a")
+	)
+	(text "Since we do not use microphone,\nthese can be connected to ground"
+		(exclude_from_sim no)
+		(at 85.09 123.952 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a6b0afdd-ce46-469e-925d-1f5659fc3b42")
+	)
+	(text "EPAD is connected to heat sink,\nwe can use polygons"
+		(exclude_from_sim no)
+		(at 148.59 138.938 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d756740e-aabc-4d17-aa8d-ff182cc72b68")
 	)
 	(text "Since we do not use headphones,\nthese can be connected to ground"
 		(exclude_from_sim no)
@@ -2394,6 +2473,39 @@
 		)
 		(uuid "31efcee6-32f0-4d0c-8fc1-38205d24feca")
 	)
+	(label "VINR"
+		(at 88.9 130.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "347334c7-8c3a-415d-b50e-0e2b3f695a61")
+	)
+	(label "VINL"
+		(at 81.28 130.81 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4231a6f3-2a29-4056-9fe1-81774b888a65")
+	)
+	(label "VINR"
+		(at 151.13 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6b2d8fa6-d7c2-4316-9692-a4960a030a0b")
+	)
 	(label "VDDD"
 		(at 100.33 146.05 180)
 		(fields_autoplaced yes)
@@ -2404,6 +2516,28 @@
 			(justify right bottom)
 		)
 		(uuid "860f844b-229e-47a3-ab5c-d22f5a05ca2c")
+	)
+	(label "VADCP"
+		(at 151.13 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8cfbe123-81d7-4b75-8c50-b1b7cf3e4371")
+	)
+	(label "VINL"
+		(at 151.13 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8d1d6e3b-0dba-462f-85f1-90022a0f9b0c")
 	)
 	(label "VDDA"
 		(at 100.33 157.48 180)
@@ -2449,6 +2583,17 @@
 		)
 		(uuid "98600741-440c-47bf-bfd1-2435ac654bed")
 	)
+	(label "VINM"
+		(at 151.13 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9fb5cca4-c3c4-46c2-9eb5-60892ea4fff3")
+	)
 	(label "VOUTLHP"
 		(at 186.69 72.39 0)
 		(fields_autoplaced yes)
@@ -2493,6 +2638,17 @@
 		)
 		(uuid "b841e704-d2df-4b80-b446-3cef03452305")
 	)
+	(label "VINM"
+		(at 85.09 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd3b1970-40fa-4f5f-b8a3-1777d8f4294a")
+	)
 	(label "VSSA(HP)"
 		(at 151.13 118.11 180)
 		(fields_autoplaced yes)
@@ -2525,6 +2681,17 @@
 			(justify right bottom)
 		)
 		(uuid "cdf4f39d-ab51-4585-84a1-73027edf119a")
+	)
+	(label "VADCN"
+		(at 151.13 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ce20a587-578c-4b28-941d-1b0f56921f81")
 	)
 	(label "VDDA"
 		(at 16.51 143.51 0)
@@ -5279,6 +5446,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 85.09 130.81 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dbee0f66-390b-4853-8b57-7eed75f35d79")
+		(property "Reference" "#PWR025"
+			(at 85.09 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 85.09 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 85.09 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "258e5b98-5495-4eec-9145-8c6806d7f14b")
+		)
+		(instances
+			(project "plant caretaker"
+				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906/34ae70cd-ec6d-4009-8d65-9818ae1eafe0"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 125.73 71.12 180)
 		(unit 1)
@@ -5478,6 +5712,72 @@
 			(project "plant caretaker"
 				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906/34ae70cd-ec6d-4009-8d65-9818ae1eafe0"
 					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 147.32 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e62faf9b-4d0c-4796-affc-8762ad8b141e")
+		(property "Reference" "#PWR028"
+			(at 147.32 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 147.32 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 147.32 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e77c8aa-a988-4ec2-8764-c2a920a3011f")
+		)
+		(instances
+			(project "plant caretaker"
+				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906/34ae70cd-ec6d-4009-8d65-9818ae1eafe0"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
