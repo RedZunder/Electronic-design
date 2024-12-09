@@ -871,7 +871,7 @@
 			(type solid)
 		)
 		(fill
-			(color 255 249 178 1.0000)
+			(color 255 255 207 1.0000)
 		)
 		(uuid "34ae70cd-ec6d-4009-8d65-9818ae1eafe0")
 		(property "Sheetname" "AudioCodec"
@@ -892,6 +892,46 @@
 				(justify left top)
 			)
 		)
+		(pin "V_3V0" input
+			(at 91.44 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "dd871b29-0ba3-4633-a803-c2a15a0cfa6b")
+		)
+		(pin "SYSCLK" input
+			(at 83.82 48.26 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "72627220-5116-44f8-ab3c-6b8d981079f6")
+		)
+		(pin "OUT_L" output
+			(at 100.33 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ae948c0d-c400-4e86-b134-a94fb4a7e9bb")
+		)
+		(pin "OUT_R" output
+			(at 100.33 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c14cb952-27da-4450-b47e-6a56164daeda")
+		)
 		(instances
 			(project "plant caretaker"
 				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906"
@@ -909,7 +949,7 @@
 			(type solid)
 		)
 		(fill
-			(color 255 252 216 1.0000)
+			(color 255 255 207 1.0000)
 		)
 		(uuid "57a337a3-c367-4ad3-adc0-1aeb321dd5f9")
 		(property "Sheetname" "BuckConverter"
@@ -957,7 +997,7 @@
 			(type solid)
 		)
 		(fill
-			(color 255 251 218 1.0000)
+			(color 255 255 207 1.0000)
 		)
 		(uuid "64bd70cc-1431-45fc-8946-041e9631b1bb")
 		(property "Sheetname" "AudioAmplifier"
@@ -1014,7 +1054,7 @@
 			(type solid)
 		)
 		(fill
-			(color 255 253 203 1.0000)
+			(color 255 255 207 1.0000)
 		)
 		(uuid "f322dacc-209e-46f8-9f8f-6103b236b6bb")
 		(property "Sheetname" "TempSensor"
