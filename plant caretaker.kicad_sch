@@ -932,6 +932,36 @@
 			)
 			(uuid "c14cb952-27da-4450-b47e-6a56164daeda")
 		)
+		(pin "A1" input
+			(at 83.82 69.85 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3423722d-afd1-4d5c-9c34-3df7d4d9e9c6")
+		)
+		(pin "SCL" input
+			(at 83.82 74.93 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ff5ae3b5-05ef-471f-9b52-86ba326b705d")
+		)
+		(pin "SDA" bidirectional
+			(at 83.82 72.39 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d4a62aef-8287-4c16-b0ad-920e470e1991")
+		)
 		(instances
 			(project "plant caretaker"
 				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906"
