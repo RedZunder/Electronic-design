@@ -1399,6 +1399,17 @@
 		)
 		(uuid "fe00e57a-5c11-4e22-a5cd-8159a38db7c5")
 	)
+	(text "TO DO LIST\n- pins for power source 12v\n- pins for humidity sensor\n- pins for water pump\n- USB pins for microprocessor"
+		(exclude_from_sim no)
+		(at 223.012 115.316 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "60969507-4b14-4fab-af2b-bf678a983b22")
+	)
 	(text "Capacitor should be as \nclose as possible to V source\n"
 		(exclude_from_sim no)
 		(at 153.416 33.274 0)
