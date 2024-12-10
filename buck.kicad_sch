@@ -1061,7 +1061,7 @@
 		)
 		(uuid "297a2b1a-0bc8-4b80-8dd4-0d92e02813eb")
 	)
-	(hierarchical_label "3V Regulated Output"
+	(hierarchical_label "3.3V Regulated Output"
 		(shape input)
 		(at 132.08 110.49 0)
 		(fields_autoplaced yes)

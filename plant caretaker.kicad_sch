@@ -1040,7 +1040,7 @@
 				(justify left top)
 			)
 		)
-		(pin "3V Regulated Output" output
+		(pin "3.3V Regulated Output" input
 			(at 62.23 104.14 0)
 			(effects
 				(font
@@ -1048,7 +1048,7 @@
 				)
 				(justify right)
 			)
-			(uuid "40231ef1-0135-448c-92d3-dea7e92b02cc")
+			(uuid "4d10dd1a-c3d1-4e1b-bf3d-8835d3aa7aca")
 		)
 		(instances
 			(project "plant caretaker"
@@ -1137,7 +1137,7 @@
 			)
 			(uuid "cc3d1c1b-3543-45d5-9d00-9662322f41b0")
 		)
-		(pin "3V Regulated Output" input
+		(pin "3.3V Regulated Output" input
 			(at 106.68 104.14 180)
 			(effects
 				(font
@@ -1145,7 +1145,7 @@
 				)
 				(justify left)
 			)
-			(uuid "c82bb5cd-63f8-44c6-a4bd-e3043d2929ce")
+			(uuid "18aa07ac-b43b-49d6-9312-94581fd203cc")
 		)
 		(instances
 			(project "plant caretaker"
