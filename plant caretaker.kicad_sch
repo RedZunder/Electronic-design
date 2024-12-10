@@ -1381,7 +1381,7 @@
 		)
 		(uuid "fe00e57a-5c11-4e22-a5cd-8159a38db7c5")
 	)
-	(text "TO DO LIST\n- pins for power source 12v\n- pins for humidity sensor\n- pins for water pump\n- USB pins for microprocessor"
+	(text "TO DO LIST\n- correct audio amplifier pins (there's 3.3 and 3 V pins)\n- correct SDA connections\n- pins for power source 12v\n- pins for humidity sensor\n- pins for water pump\n- USB pins for microprocessor"
 		(exclude_from_sim no)
 		(at 223.012 115.316 0)
 		(effects
@@ -1671,16 +1671,6 @@
 			)
 			(uuid "72627220-5116-44f8-ab3c-6b8d981079f6")
 		)
-		(pin "A1" input
-			(at 83.82 69.85 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "3423722d-afd1-4d5c-9c34-3df7d4d9e9c6")
-		)
 		(pin "SCL" input
 			(at 83.82 74.93 180)
 			(effects
@@ -1701,26 +1691,6 @@
 			)
 			(uuid "d4a62aef-8287-4c16-b0ad-920e470e1991")
 		)
-		(pin "Right Speaker Input" output
-			(at 100.33 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "84ad987d-fe92-4f91-9adc-8c79721edcb2")
-		)
-		(pin "Left Speaker Input" output
-			(at 100.33 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "df0bdcd4-2076-46fa-a52f-d671647c07c8")
-		)
 		(pin "V_3V0" input
 			(at 91.44 35.56 90)
 			(effects
@@ -1730,6 +1700,26 @@
 				(justify right)
 			)
 			(uuid "e1b1123f-d77a-47f6-929a-b6a00ffa07a3")
+		)
+		(pin "R_OUT" output
+			(at 100.33 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "86e24239-d018-4d54-90c7-45170580d04d")
+		)
+		(pin "L_OUT" output
+			(at 100.33 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a07cc79c-ff47-4286-b73b-c4dc5cee8a4e")
 		)
 		(instances
 			(project "plant caretaker"
