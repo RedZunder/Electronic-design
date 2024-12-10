@@ -1124,7 +1124,7 @@
 		)
 		(uuid "83d23308-eac6-4fba-bcbd-0c3e99f00d80")
 	)
-	(hierarchical_label "V+"
+	(hierarchical_label "3.3V Input"
 		(shape input)
 		(at 171.45 54.61 0)
 		(fields_autoplaced yes)
@@ -1589,7 +1589,7 @@
 			(uuid "8dd57081-db5d-466f-8f09-a1c2cb87515c")
 		)
 		(instances
-			(project ""
+			(project "plant caretaker"
 				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906/f322dacc-209e-46f8-9f8f-6103b236b6bb"
 					(reference "C3")
 					(unit 1)
@@ -1655,7 +1655,7 @@
 			(uuid "95c112c6-2fc2-49d3-a3ee-717b8be1192a")
 		)
 		(instances
-			(project ""
+			(project "plant caretaker"
 				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906/f322dacc-209e-46f8-9f8f-6103b236b6bb"
 					(reference "#PWR029")
 					(unit 1)
@@ -1857,7 +1857,7 @@
 			(uuid "47a5be05-ceab-44d0-8092-97f2100cf76f")
 		)
 		(instances
-			(project ""
+			(project "plant caretaker"
 				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906/f322dacc-209e-46f8-9f8f-6103b236b6bb"
 					(reference "R1")
 					(unit 1)
@@ -1923,7 +1923,7 @@
 			(uuid "eb1b1d8f-967e-4a6b-8945-95b324b70a2a")
 		)
 		(instances
-			(project ""
+			(project "plant caretaker"
 				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906/f322dacc-209e-46f8-9f8f-6103b236b6bb"
 					(reference "#FLG05")
 					(unit 1)
