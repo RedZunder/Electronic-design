@@ -1049,7 +1049,7 @@
 		)
 		(uuid "ecf3aef9-f8a4-437a-b086-1f64681958d4")
 	)
-	(hierarchical_label "Buck_Output"
+	(hierarchical_label "3V Regulated Output"
 		(shape output)
 		(at 165.1 77.47 0)
 		(fields_autoplaced yes)
@@ -1061,8 +1061,8 @@
 		)
 		(uuid "297a2b1a-0bc8-4b80-8dd4-0d92e02813eb")
 	)
-	(hierarchical_label "Buck_Output"
-		(shape output)
+	(hierarchical_label "3V Regulated Output"
+		(shape input)
 		(at 132.08 110.49 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1071,7 +1071,7 @@
 			)
 			(justify left)
 		)
-		(uuid "c19c8eab-da3d-447f-a315-c142fe4cd915")
+		(uuid "7021f49c-85e8-45fd-9bd6-4ccb29b47c2b")
 	)
 	(symbol
 		(lib_id "power:+12V")
@@ -1355,7 +1355,7 @@
 				)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "33u"
 			(at 156.21 74.93 90)
 			(effects
 				(font
@@ -1754,7 +1754,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "680u"
 			(at 110.49 92.7099 0)
 			(effects
 				(font
@@ -1824,7 +1824,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "220u"
 			(at 163.83 92.7099 0)
 			(effects
 				(font

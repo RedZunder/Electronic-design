@@ -681,13 +681,53 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 59.69) (xy 127 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08bdd316-7650-4202-9c41-69c05ebfc102")
+	)
+	(wire
+		(pts
+			(xy 100.33 55.88) (xy 123.19 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a948a4a-51c3-4987-a9a8-a57ddd9af690")
+	)
+	(wire
+		(pts
+			(xy 123.19 55.88) (xy 123.19 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9bf2b95-b854-46f4-9a2e-73962e57fda5")
+	)
+	(wire
+		(pts
+			(xy 127 59.69) (xy 127 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae87fd74-777e-4da7-b4f6-fd2662d968a8")
+	)
+	(wire
+		(pts
 			(xy 62.23 104.14) (xy 106.68 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ee23375f-94b5-4863-913b-f9f83a42f094")
+		(uuid "e8b1d6bb-f96b-4b98-afcf-89958b2cec5f")
 	)
 	(text "Capacitor should be as \nclose as possible to V source\n"
 		(exclude_from_sim no)
@@ -892,16 +932,6 @@
 				(justify left top)
 			)
 		)
-		(pin "V_3V0" input
-			(at 91.44 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "dd871b29-0ba3-4633-a803-c2a15a0cfa6b")
-		)
 		(pin "SYSCLK" input
 			(at 83.82 48.26 180)
 			(effects
@@ -911,26 +941,6 @@
 				(justify left)
 			)
 			(uuid "72627220-5116-44f8-ab3c-6b8d981079f6")
-		)
-		(pin "OUT_L" output
-			(at 100.33 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "ae948c0d-c400-4e86-b134-a94fb4a7e9bb")
-		)
-		(pin "OUT_R" output
-			(at 100.33 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "c14cb952-27da-4450-b47e-6a56164daeda")
 		)
 		(pin "A1" input
 			(at 83.82 69.85 180)
@@ -961,6 +971,36 @@
 				(justify left)
 			)
 			(uuid "d4a62aef-8287-4c16-b0ad-920e470e1991")
+		)
+		(pin "Right Speaker Input" output
+			(at 100.33 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "84ad987d-fe92-4f91-9adc-8c79721edcb2")
+		)
+		(pin "Left Speaker Input" output
+			(at 100.33 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "df0bdcd4-2076-46fa-a52f-d671647c07c8")
+		)
+		(pin "V_3V0" input
+			(at 91.44 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e1b1123f-d77a-47f6-929a-b6a00ffa07a3")
 		)
 		(instances
 			(project "plant caretaker"
@@ -1000,7 +1040,7 @@
 				(justify left top)
 			)
 		)
-		(pin "Buck_Output" output
+		(pin "3V Regulated Output" output
 			(at 62.23 104.14 0)
 			(effects
 				(font
@@ -1008,7 +1048,7 @@
 				)
 				(justify right)
 			)
-			(uuid "1328aead-9811-4c72-9be3-219710f06fd1")
+			(uuid "40231ef1-0135-448c-92d3-dea7e92b02cc")
 		)
 		(instances
 			(project "plant caretaker"
@@ -1057,7 +1097,47 @@
 				(hide yes)
 			)
 		)
-		(pin "Buck_Input" input
+		(pin "Shutdown Control Input" input
+			(at 110.49 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b3b3fd40-c4e9-43f5-a8f5-9f5bcedbb7ee")
+		)
+		(pin "Left Speaker Input" input
+			(at 123.19 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "282d5cd1-1f55-469f-8133-82136b46714e")
+		)
+		(pin "Mute Control Input" input
+			(at 107.95 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5443e0d9-f75c-4f6e-b622-61642a0af630")
+		)
+		(pin "Right Speaker Input" input
+			(at 127 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cc3d1c1b-3543-45d5-9d00-9662322f41b0")
+		)
+		(pin "3V Regulated Output" input
 			(at 106.68 104.14 180)
 			(effects
 				(font
@@ -1065,7 +1145,7 @@
 				)
 				(justify left)
 			)
-			(uuid "96268de1-8b60-4408-826f-3a4c6d99f17d")
+			(uuid "c82bb5cd-63f8-44c6-a4bd-e3043d2929ce")
 		)
 		(instances
 			(project "plant caretaker"

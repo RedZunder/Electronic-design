@@ -2834,7 +2834,7 @@
 		)
 		(uuid "40c1e8e8-6edb-4410-bb77-ce0d61a04eb0")
 	)
-	(hierarchical_label "OUT_L"
+	(hierarchical_label "Left Speaker Input"
 		(shape output)
 		(at 252.73 68.58 0)
 		(fields_autoplaced yes)
@@ -2846,7 +2846,7 @@
 		)
 		(uuid "4d5d0138-eae7-4bfb-a329-7456a9dfabf7")
 	)
-	(hierarchical_label "OUT_R"
+	(hierarchical_label "Right Speaker Input"
 		(shape output)
 		(at 252.73 63.5 0)
 		(fields_autoplaced yes)
