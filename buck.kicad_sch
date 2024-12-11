@@ -443,7 +443,7 @@
 				)
 			)
 		)
-		(symbol "Regulator_Switching:LM2596S-ADJ"
+		(symbol "Regulator_Switching:LM2596S-5"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -456,7 +456,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "LM2596S-ADJ"
+			(property "Value" "LM2596S-5"
 				(at 0 6.35 0)
 				(effects
 					(font
@@ -485,7 +485,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Adjustable 3A Step-Down Voltage Regulator, TO-263"
+			(property "Description" "5V 3A Step-Down Voltage Regulator, TO-263"
 				(at 0 0 0)
 				(effects
 					(font
@@ -494,7 +494,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Step-Down Voltage Regulator Adjustable 3A"
+			(property "ki_keywords" "Step-Down Voltage Regulator 5V 3A"
 				(at 0 0 0)
 				(effects
 					(font
@@ -512,7 +512,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LM2596S-ADJ_0_1"
+			(symbol "LM2596S-5_0_1"
 				(rectangle
 					(start -10.16 5.08)
 					(end 10.16 -5.08)
@@ -525,7 +525,7 @@
 					)
 				)
 			)
-			(symbol "LM2596S-ADJ_1_1"
+			(symbol "LM2596S-5_1_1"
 				(pin power_in line
 					(at -12.7 2.54 0)
 					(length 2.54)
@@ -929,7 +929,7 @@
 		)
 		(uuid "ecf3aef9-f8a4-437a-b086-1f64681958d4")
 	)
-	(hierarchical_label "3.3V Regulated Output"
+	(hierarchical_label "5V_OUT"
 		(shape output)
 		(at 165.1 77.47 0)
 		(fields_autoplaced yes)
@@ -941,7 +941,7 @@
 		)
 		(uuid "297a2b1a-0bc8-4b80-8dd4-0d92e02813eb")
 	)
-	(hierarchical_label "3.3V Regulated Output"
+	(hierarchical_label "5V_OUT"
 		(shape input)
 		(at 132.08 110.49 0)
 		(fields_autoplaced yes)
@@ -964,6 +964,85 @@
 			(justify right)
 		)
 		(uuid "edbece81-e6ce-4c94-8acd-7d087ca9c489")
+	)
+	(symbol
+		(lib_id "Regulator_Switching:LM2596S-5")
+		(at 127 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15686783-7407-4fd8-85c4-40bf94a792c1")
+		(property "Reference" "U4"
+			(at 127 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM2596S-5"
+			(at 127 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-5_TabPin3"
+			(at 128.27 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2596.pdf"
+			(at 127 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5V 3A Step-Down Voltage Regulator, TO-263"
+			(at 127 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ddce3146-d0b6-4fe7-9d18-69d2f6673ad1")
+		)
+		(pin "2"
+			(uuid "4c464d09-4ed3-4502-8c5c-571da0cfcda9")
+		)
+		(pin "4"
+			(uuid "f7eb5086-e40f-4474-ba46-457a49b0af66")
+		)
+		(pin "3"
+			(uuid "ab3d46eb-1c3b-4cb4-9199-dbe223a16a55")
+		)
+		(pin "5"
+			(uuid "0a2f3e0b-479d-4c58-8027-f32f6eaccebe")
+		)
+		(instances
+			(project ""
+				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906/57a337a3-c367-4ad3-adc0-1aeb321dd5f9"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1499,85 +1578,6 @@
 			(project "plant caretaker"
 				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906/57a337a3-c367-4ad3-adc0-1aeb321dd5f9"
 					(reference "#FLG03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Switching:LM2596S-ADJ")
-		(at 127 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ef88fcd4-0d52-42ae-8974-c47b9fe59452")
-		(property "Reference" "U3"
-			(at 127 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM2596S-ADJ"
-			(at 127 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-5_TabPin3"
-			(at 128.27 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2596.pdf"
-			(at 127 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Adjustable 3A Step-Down Voltage Regulator, TO-263"
-			(at 127 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ba8cdba7-8067-4d71-ba20-6e8d67cc8725")
-		)
-		(pin "4"
-			(uuid "3c0eb17d-4e9e-4739-a3ef-3a2982967ecf")
-		)
-		(pin "5"
-			(uuid "0a698774-f8d9-4554-acc4-9516f174b28e")
-		)
-		(pin "3"
-			(uuid "1273ee89-c573-49f2-be5f-5258eb477788")
-		)
-		(pin "1"
-			(uuid "95273665-cba8-4f1b-877c-41aeda121dff")
-		)
-		(instances
-			(project "plant caretaker"
-				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906/57a337a3-c367-4ad3-adc0-1aeb321dd5f9"
-					(reference "U3")
 					(unit 1)
 				)
 			)
