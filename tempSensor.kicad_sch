@@ -1124,7 +1124,7 @@
 		)
 		(uuid "83d23308-eac6-4fba-bcbd-0c3e99f00d80")
 	)
-	(hierarchical_label "3.3V Input"
+	(hierarchical_label "3.3V_IN"
 		(shape input)
 		(at 171.45 54.61 0)
 		(fields_autoplaced yes)

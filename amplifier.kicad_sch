@@ -1584,7 +1584,47 @@
 		)
 		(uuid "eda0684a-bd04-4216-a269-182fb8022b51")
 	)
-	(hierarchical_label "Mute Control Input"
+	(text "Left Speaker Input"
+		(exclude_from_sim no)
+		(at 87.122 80.264 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "320431ff-1fec-4ee9-bc11-a1faaf13f830")
+	)
+	(text "Mute Control Signal"
+		(exclude_from_sim no)
+		(at 89.154 103.124 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "655e4f0d-9336-4613-8e69-d2718a22c7b4")
+	)
+	(text "Right Speaker Input"
+		(exclude_from_sim no)
+		(at 65.278 92.964 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "77f13f0d-8a33-43c3-a047-66022a3240eb")
+	)
+	(text "Shutdown Control Signal"
+		(exclude_from_sim no)
+		(at 87.122 98.044 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e722f73c-6ffb-4a75-9e6e-eda8cd8bcb4d")
+	)
+	(hierarchical_label "MUTE_IN"
 		(shape input)
 		(at 109.22 102.87 180)
 		(fields_autoplaced yes)
@@ -1596,7 +1636,7 @@
 		)
 		(uuid "12188665-e798-48bc-96cb-744aa7d88404")
 	)
-	(hierarchical_label "3.3V Regulated Output"
+	(hierarchical_label "3.3V_IN"
 		(shape input)
 		(at 146.05 53.34 90)
 		(fields_autoplaced yes)
@@ -1608,7 +1648,7 @@
 		)
 		(uuid "517daa4a-89c1-4687-bdc7-3f381f6e18d8")
 	)
-	(hierarchical_label "Shutdown Control Input"
+	(hierarchical_label "SHDN_IN"
 		(shape input)
 		(at 109.22 97.79 180)
 		(fields_autoplaced yes)
@@ -1620,7 +1660,7 @@
 		)
 		(uuid "704f596e-bd8b-4b28-8907-62089cf6a553")
 	)
-	(hierarchical_label "Right Speaker Input"
+	(hierarchical_label "R_IN"
 		(shape input)
 		(at 81.28 92.71 180)
 		(fields_autoplaced yes)
@@ -1632,7 +1672,7 @@
 		)
 		(uuid "857a1ecb-4f06-448d-a3c2-07e06b921627")
 	)
-	(hierarchical_label "Left Speaker Input"
+	(hierarchical_label "L_IN"
 		(shape input)
 		(at 102.87 80.01 180)
 		(fields_autoplaced yes)
@@ -1644,7 +1684,7 @@
 		)
 		(uuid "99c1b89d-32a8-481d-b405-2f4703abd1c3")
 	)
-	(hierarchical_label "3.3V Regulated Output"
+	(hierarchical_label "3.3V_IN"
 		(shape input)
 		(at 129.54 59.69 180)
 		(fields_autoplaced yes)
