@@ -1423,42 +1423,60 @@
 				)
 			)
 		)
-		(symbol "IRFZ44N:IRFZ44N"
-			(pin_names
-				(offset 1.016)
-			)
+		(symbol "Transistor_FET:FDMS86255"
+			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Q"
-				(at -8.89 2.54 0)
+				(at 5.08 1.905 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left)
 				)
 			)
-			(property "Value" "IRFZ44N"
-				(at -8.89 -7.62 0)
+			(property "Value" "FDMS86255"
+				(at 5.08 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left)
 				)
 			)
-			(property "Footprint" "IRFZ44N:TO254P1016X419X2286-3"
+			(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/FDMS86255-D.pdf"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "10A Id, 150V Vds, N-Channel Shielded Gate PowerTrench MOSFET, 12.4mOhm Ron, 63nC Qgmax, -55 to 150 °C, 5x6mm SON8"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "ki_keywords" "shielded-gate-powertrench-MOSFET MOSFET fairchild"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1467,7 +1485,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "ki_fp_filters" "TDSON*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1476,140 +1494,22 @@
 					(hide yes)
 				)
 			)
-			(property "MF" "Infineon Technologies"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "22.86 mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "TO-220-3 Infineon"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/IRFZ44N/Infineon/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "IPC 7351B"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "09/21/10"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/IRFZ44N/Infineon/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "IRFZ44N"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "\n                        \n                            N-Channel 55 V 49A (Tc) 94W (Tc) Through Hole TO-220AB\n                        \n"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SNAPEDA_PN" "IRFZ44N"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Infineon"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "IRFZ44N_0_0"
+			(symbol "FDMS86255_0_1"
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0 -2.54)
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
 					)
 					(stroke
 						(width 0.254)
@@ -1621,7 +1521,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 -2.54) (xy 0.762 -3.175)
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
 					)
 					(stroke
 						(width 0.254)
@@ -1633,7 +1533,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 -1.905) (xy 0.762 -2.54)
+						(xy 0.762 0.508) (xy 0.762 -0.508)
 					)
 					(stroke
 						(width 0.254)
@@ -1645,7 +1545,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 0) (xy 0.762 -0.762)
+						(xy 0.762 2.286) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -1657,10 +1557,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 0) (xy 2.54 0)
+						(xy 2.54 2.54) (xy 2.54 1.778)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1669,10 +1569,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 0.762) (xy 0.762 0)
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1681,10 +1581,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 2.54) (xy 0.762 1.905)
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1693,142 +1593,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 2.54) (xy 3.81 2.54)
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
 					)
 					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 3.175) (xy 0.762 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 0.762 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 3.81 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.508) (xy 3.048 0.254)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0.508) (xy 3.302 0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0.508) (xy 3.81 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 2.54) (xy 3.81 0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.318 0.508) (xy 3.81 0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.572 0.762) (xy 4.318 0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.762) (xy 2.032 -0.762) (xy 1.016 0)
-					)
-					(stroke
-						(width 0.1524)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1837,19 +1605,20 @@
 				)
 				(polyline
 					(pts
-						(xy 3.81 0.508) (xy 3.302 -0.254) (xy 4.318 -0.254) (xy 3.81 0.508)
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
-				(circle
-					(center 2.54 -2.54)
-					(radius 0.3592)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -1859,30 +1628,108 @@
 					)
 				)
 				(circle
-					(center 2.54 2.54)
-					(radius 0.3592)
+					(center 1.651 0)
+					(radius 2.794)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "FDMS86255_1_1"
 				(pin passive line
-					(at -2.54 -2.54 0)
+					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "~"
+					(name "S"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54) hide
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54) hide
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -1890,35 +1737,17 @@
 				(pin passive line
 					(at 2.54 5.08 270)
 					(length 2.54)
-					(name "~"
+					(name "D"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "5"
 						(effects
 							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -2360,23 +2189,13 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 71.12) (xy 241.3 88.9)
+			(xy 241.3 69.85) (xy 241.3 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2ece730a-232f-48b2-8fae-c0805b1279d2")
-	)
-	(wire
-		(pts
-			(xy 248.92 72.39) (xy 248.92 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "351e39f2-192b-4d87-ad0e-fba376b81f60")
 	)
 	(wire
 		(pts
@@ -2397,16 +2216,6 @@
 			(type default)
 		)
 		(uuid "3ebcc1ac-c2ed-45c4-8c88-d87dbdd050ab")
-	)
-	(wire
-		(pts
-			(xy 251.46 72.39) (xy 248.92 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42383cfd-9d2c-47f8-bc92-0ad1a708e1f8")
 	)
 	(wire
 		(pts
@@ -3187,6 +2996,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:FDMS86255")
+		(at 254 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "165ea423-6193-4613-b3e1-361b96366bb5")
+		(property "Reference" "Q3"
+			(at 260.35 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FDMS86255"
+			(at 260.35 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
+			(at 259.08 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/FDMS86255-D.pdf"
+			(at 259.08 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "10A Id, 150V Vds, N-Channel Shielded Gate PowerTrench MOSFET, 12.4mOhm Ron, 63nC Qgmax, -55 to 150 °C, 5x6mm SON8"
+			(at 254 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "37de1ab2-dcbb-4576-9eed-a3bf84df8f14")
+		)
+		(pin "3"
+			(uuid "83478cd2-e99d-462c-9ce3-af9a8f7b8865")
+		)
+		(pin "5"
+			(uuid "7a90883b-497a-4198-8ee6-b7361133058e")
+		)
+		(pin "1"
+			(uuid "77e6a412-0e24-4a45-b8ab-d478ab4fec86")
+		)
+		(pin "4"
+			(uuid "f73cfc29-bb25-4574-9abf-dc33b2475388")
+		)
+		(instances
+			(project ""
+				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 262.89 49.53 180)
 		(unit 1)
@@ -3881,7 +3772,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 245.11 71.12 90)
+		(at 245.11 69.85 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3890,7 +3781,7 @@
 		(fields_autoplaced yes)
 		(uuid "97689343-5485-4308-8840-6e70c61ef54f")
 		(property "Reference" "R10"
-			(at 245.11 64.77 90)
+			(at 245.11 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3898,7 +3789,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 245.11 67.31 90)
+			(at 245.11 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3906,7 +3797,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 245.11 72.898 90)
+			(at 245.11 71.628 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3915,7 +3806,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 245.11 71.12 0)
+			(at 245.11 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3924,7 +3815,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 245.11 71.12 0)
+			(at 245.11 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4008,210 +3899,6 @@
 			(project ""
 				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906"
 					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "IRFZ44N:IRFZ44N")
-		(at 254 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "afbbc1d8-d7ba-41eb-a4c2-06891331181f")
-		(property "Reference" "Q1"
-			(at 260.35 68.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRFZ44N"
-			(at 260.35 71.1199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "IRFZ44N:TO254P1016X419X2286-3"
-			(at 254 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 254 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 254 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Infineon Technologies"
-			(at 254 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "22.86 mm"
-			(at 254 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "TO-220-3 Infineon"
-			(at 254 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 254 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/IRFZ44N/Infineon/view-part/?ref=eda"
-			(at 254 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "IPC 7351B"
-			(at 254 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "09/21/10"
-			(at 254 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/IRFZ44N/Infineon/view-part/?ref=snap"
-			(at 254 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "IRFZ44N"
-			(at 254 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            N-Channel 55 V 49A (Tc) 94W (Tc) Through Hole TO-220AB\n                        \n"
-			(at 254 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "IRFZ44N"
-			(at 254 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 254 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Infineon"
-			(at 254 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c84b5c28-1c65-447b-9982-50512f2d606c")
-		)
-		(pin "1"
-			(uuid "04382134-cd25-4318-b0fa-ac7fc68ed411")
-		)
-		(pin "3"
-			(uuid "25c513a9-3bba-4d04-a54d-7957b0c4a457")
-		)
-		(instances
-			(project ""
-				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906"
-					(reference "Q1")
 					(unit 1)
 				)
 			)
