@@ -4,6 +4,10 @@
 	(generator_version "8.0")
 	(uuid "2c4c77d3-c5af-4252-a3f1-448dce431b6d")
 	(paper "A4")
+	(title_block
+		(title "Buck converter")
+		(date "2024-12-12")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers hide)
@@ -1036,7 +1040,7 @@
 			(uuid "0a2f3e0b-479d-4c58-8027-f32f6eaccebe")
 		)
 		(instances
-			(project ""
+			(project "plant caretaker"
 				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906/57a337a3-c367-4ad3-adc0-1aeb321dd5f9"
 					(reference "U4")
 					(unit 1)

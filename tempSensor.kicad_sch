@@ -4,6 +4,10 @@
 	(generator_version "8.0")
 	(uuid "6425e294-6317-43a4-9a0b-9be27cba95d0")
 	(paper "A4")
+	(title_block
+		(title "Temperature sensor")
+		(date "2024-12-12")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers hide)

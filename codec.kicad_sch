@@ -4,6 +4,10 @@
 	(generator_version "8.0")
 	(uuid "aeebfcd5-297f-4bf3-8d84-c853b6ea7179")
 	(paper "A4")
+	(title_block
+		(title "Audio codec")
+		(date "2024-12-12")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers hide)

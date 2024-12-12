@@ -4,6 +4,10 @@
 	(generator_version "8.0")
 	(uuid "23b35dcc-615e-4aec-abee-c26cc3d8b906")
 	(paper "A4")
+	(title_block
+		(title "Plant caretaker")
+		(date "2024-12-12")
+	)
 	(lib_symbols
 		(symbol "694106402002:694106402002"
 			(pin_names
@@ -3203,17 +3207,6 @@
 		)
 		(uuid "ffd5871b-47bf-4d2f-90a3-e827b7891f43")
 	)
-	(text "TO DO LIST\n- pins for humidity sensor\n- pins for water pump\n"
-		(exclude_from_sim no)
-		(at 195.072 145.796 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "60969507-4b14-4fab-af2b-bf678a983b22")
-	)
 	(label "CODEC.DATAI"
 		(at 226.06 101.6 0)
 		(fields_autoplaced yes)
@@ -3437,7 +3430,7 @@
 			(uuid "8176ad26-dd37-47a5-8564-dd1e89dfc72b")
 		)
 		(instances
-			(project ""
+			(project "plant caretaker"
 				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906"
 					(reference "#PWR01")
 					(unit 1)
@@ -3519,7 +3512,7 @@
 			(uuid "f73cfc29-bb25-4574-9abf-dc33b2475388")
 		)
 		(instances
-			(project ""
+			(project "plant caretaker"
 				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906"
 					(reference "Q3")
 					(unit 1)
@@ -3590,7 +3583,7 @@
 			(uuid "606360ff-648e-423e-a000-709f452e4b76")
 		)
 		(instances
-			(project ""
+			(project "plant caretaker"
 				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906"
 					(reference "J3")
 					(unit 1)
@@ -3658,7 +3651,7 @@
 			(uuid "228a7f4f-0aa6-45e8-840e-021b54f97933")
 		)
 		(instances
-			(project ""
+			(project "plant caretaker"
 				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906"
 					(reference "C18")
 					(unit 1)
@@ -3880,7 +3873,7 @@
 			(uuid "6f3fb957-88a3-43dc-a383-41d0550736cf")
 		)
 		(instances
-			(project ""
+			(project "plant caretaker"
 				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906"
 					(reference "J1")
 					(unit 1)
@@ -3915,7 +3908,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ESP32_C3_ZERO_Library:ESP32_C3_ZERO"
 			(at 200.66 88.9 0)
 			(effects
 				(font
@@ -3997,7 +3990,7 @@
 			(uuid "db0716cb-3ebf-4d5f-ae5c-9e1d21160ba7")
 		)
 		(instances
-			(project ""
+			(project "plant caretaker"
 				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906"
 					(reference "U6")
 					(unit 1)
@@ -4129,7 +4122,7 @@
 			(uuid "c56b5fd9-bdb1-4376-89a2-ec5d0d3853d5")
 		)
 		(instances
-			(project ""
+			(project "plant caretaker"
 				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906"
 					(reference "#FLG01")
 					(unit 1)
@@ -4261,7 +4254,7 @@
 			(uuid "eff21e66-f763-46bd-8ce8-ef18a8cf766e")
 		)
 		(instances
-			(project ""
+			(project "plant caretaker"
 				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906"
 					(reference "#PWR05")
 					(unit 1)
@@ -4415,7 +4408,7 @@
 			(uuid "b6919219-85c9-440e-bace-cc26983c22e5")
 		)
 		(instances
-			(project ""
+			(project "plant caretaker"
 				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906"
 					(reference "D2")
 					(unit 1)
@@ -4549,7 +4542,7 @@
 			(uuid "807a0cf8-41ab-469e-ba94-ed2953b4803f")
 		)
 		(instances
-			(project ""
+			(project "plant caretaker"
 				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906"
 					(reference "R10")
 					(unit 1)
@@ -4615,7 +4608,7 @@
 			(uuid "319b32cf-51c0-4dd2-aa55-6bf7ab69e82a")
 		)
 		(instances
-			(project ""
+			(project "plant caretaker"
 				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906"
 					(reference "#FLG02")
 					(unit 1)
@@ -4685,7 +4678,7 @@
 			(uuid "bf04048e-7155-44cc-8850-041f469721eb")
 		)
 		(instances
-			(project ""
+			(project "plant caretaker"
 				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906"
 					(reference "J2")
 					(unit 1)
@@ -4751,7 +4744,7 @@
 			(uuid "1ca1377e-afd3-4351-9aca-8ff8527326d5")
 		)
 		(instances
-			(project ""
+			(project "plant caretaker"
 				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906"
 					(reference "#PWR025")
 					(unit 1)
