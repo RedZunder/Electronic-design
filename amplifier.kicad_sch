@@ -1052,6 +1052,16 @@
 		)
 		(uuid "0d864bab-3af4-4f94-8606-1992f4883022")
 	)
+	(polyline
+		(pts
+			(xy 148.59 49.53) (xy 148.59 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19ebd990-f04c-4550-860b-140f4a647989")
+	)
 	(wire
 		(pts
 			(xy 146.05 53.34) (xy 146.05 58.42)
@@ -1332,6 +1342,16 @@
 		)
 		(uuid "8cbdac6c-7d25-40cd-82c8-95c7a7a6fa8c")
 	)
+	(polyline
+		(pts
+			(xy 156.21 49.53) (xy 148.59 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d0a727d-fc6f-4b60-a7ed-8a3cd9e42830")
+	)
 	(wire
 		(pts
 			(xy 184.15 113.03) (xy 184.15 107.95)
@@ -1531,6 +1551,17 @@
 			)
 		)
 		(uuid "e722f73c-6ffb-4a75-9e6e-eda8cd8bcb4d")
+	)
+	(text "For this component, maybe make parallel connections\nof SMD capacitors for equivalent C? \nOr use electrolytic capacitor and change symbol?"
+		(exclude_from_sim no)
+		(at 151.384 45.212 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e897b74c-91cf-4d68-b255-06f74e36f65c")
 	)
 	(hierarchical_label "MUTE_IN"
 		(shape input)

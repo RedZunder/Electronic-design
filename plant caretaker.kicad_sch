@@ -3197,7 +3197,7 @@
 		)
 		(uuid "ffd5871b-47bf-4d2f-90a3-e827b7891f43")
 	)
-	(text "FOR PCB:\n- Place sensor pins at the edge next to ESP32\n- Separate analog and digital parts, connected only by I2C wires\n- Drive power to the two parts, without circling around the PCB\n- Power at the edge of the PCB\n- Check that 3D models do not collide with each other\n"
+	(text "FOR PCB:\n- Place sensor pins at the edge next to ESP32\n- Separate analog and digital parts, connected only by I2C wires\n- Drive power to the two parts, without circling around the PCB\n- Power at the edge of the PCB\n- Check that 3D models do not collide with each other\n- Decide on one size for all SMD components\n"
 		(exclude_from_sim no)
 		(at 213.614 150.114 0)
 		(effects
