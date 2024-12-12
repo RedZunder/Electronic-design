@@ -1614,7 +1614,7 @@
 				(pin bidirectional line
 					(at -16.51 -10.16 0)
 					(length 2.54)
-					(name "GPIO6"
+					(name "GPIO5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2927,16 +2927,6 @@
 		)
 		(uuid "a8386475-b927-4309-a2e6-d33267db93a4")
 	)
-	(bus
-		(pts
-			(xy 39.37 80.01) (xy 39.37 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "adb7fec5-46a4-4f76-a92f-4e6549dde1c9")
-	)
 	(wire
 		(pts
 			(xy 114.3 85.09) (xy 111.76 85.09)
@@ -3206,6 +3196,28 @@
 			(type default)
 		)
 		(uuid "ffd5871b-47bf-4d2f-90a3-e827b7891f43")
+	)
+	(text "FOR PCB:\n- Place sensor pins at the edge next to ESP32\n- Separate analog and digital parts, connected only by I2C wires\n- Drive power to the two parts, without circling around the PCB\n- Power at the edge of the PCB\n- Check that 3D models do not collide with each other\n"
+		(exclude_from_sim no)
+		(at 213.614 150.114 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "05216f92-a639-413b-b814-2225c3c19c89")
+	)
+	(text "TO DO\n- choose all footprints (SMD)\n- move all pump control related components to buck converter\n- start with bill of materials\n- make 3 PCBs and remix into final PCB design"
+		(exclude_from_sim no)
+		(at 213.36 136.906 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "687b6fc2-31da-44bb-b114-c43eb1559884")
 	)
 	(label "CODEC.DATAI"
 		(at 226.06 101.6 0)
