@@ -68,56 +68,6 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -1.38 -1.59)
-		(end -1.38 21.91)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "c4b4447b-1837-41a3-a133-ace21c93ce9d")
-	)
-	(fp_line
-		(start -1.38 -1.59)
-		(end 16.62 -1.59)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "6038b6eb-52cb-48c3-ae5e-bec83c15e260")
-	)
-	(fp_line
-		(start -1.38 21.91)
-		(end 16.62 21.91)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "e8c7ad0f-1223-4a9d-8108-bad6c7a8d8f1")
-	)
-	(fp_line
-		(start 3.29 -3.18)
-		(end 3.29 1.82)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "20a738ae-487f-4ae6-8a77-06be69f8bbcd")
-	)
-	(fp_line
-		(start 3.29 -3.18)
-		(end 11.95 -3.18)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "0ba9e76f-9fce-446f-999f-efa89ec0c89a")
-	)
-	(fp_line
 		(start 3.29 1.82)
 		(end 11.95 1.82)
 		(stroke
@@ -128,13 +78,63 @@
 		(uuid "7922cbc9-b529-48af-8b0d-e60e1f1ef0c2")
 	)
 	(fp_line
+		(start -1.38 -1.59)
+		(end -1.38 21.91)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "c4b4447b-1837-41a3-a133-ace21c93ce9d")
+	)
+	(fp_line
+		(start -1.38 -1.59)
+		(end 16.62 -1.59)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "6038b6eb-52cb-48c3-ae5e-bec83c15e260")
+	)
+	(fp_line
+		(start -1.38 21.91)
+		(end 16.62 21.91)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "e8c7ad0f-1223-4a9d-8108-bad6c7a8d8f1")
+	)
+	(fp_line
+		(start 3.29 -3.18)
+		(end 3.29 1.82)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "20a738ae-487f-4ae6-8a77-06be69f8bbcd")
+	)
+	(fp_line
+		(start 3.29 -3.18)
+		(end 11.95 -3.18)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "0ba9e76f-9fce-446f-999f-efa89ec0c89a")
+	)
+	(fp_line
 		(start 11.95 -3.18)
 		(end 11.95 1.82)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
-		(layer "F.SilkS")
+		(layer "F.CrtYd")
 		(uuid "d15f23d5-27c0-41c2-87ba-af7d112fe7cb")
 	)
 	(fp_line
@@ -144,7 +144,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(layer "F.SilkS")
+		(layer "F.CrtYd")
 		(uuid "ade000a9-ba6a-4c88-9b73-e10b23585540")
 	)
 	(fp_text user "${REFERENCE}"

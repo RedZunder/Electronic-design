@@ -1660,7 +1660,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 90.17 91.7448 0)
 			(effects
 				(font
@@ -1795,7 +1795,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 127.9652 71.12 0)
 			(effects
 				(font
@@ -1865,7 +1865,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10.5"
 			(at 147.0152 66.04 0)
 			(effects
 				(font
@@ -1934,7 +1934,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 96.2152 67.31 0)
 			(effects
 				(font
@@ -2136,7 +2136,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 166.0652 67.31 0)
 			(effects
 				(font
@@ -2269,7 +2269,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 119.38 86.6648 0)
 			(effects
 				(font
@@ -2403,7 +2403,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "OtherComponents:FerriteBead_742861160_0603"
 			(at 156.21 80.518 90)
 			(effects
 				(font
@@ -2604,7 +2604,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 96.52 94.488 90)
 			(effects
 				(font
@@ -2672,7 +2672,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 110.49 71.4248 0)
 			(effects
 				(font
@@ -2740,7 +2740,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "OtherComponents:FerriteBead_742861160_0603"
 			(at 153.67 99.568 90)
 			(effects
 				(font
@@ -2993,7 +2993,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 162.2552 86.36 0)
 			(effects
 				(font
@@ -3061,7 +3061,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 116.84 74.168 90)
 			(effects
 				(font
@@ -3267,7 +3267,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 163.5252 105.41 0)
 			(effects
 				(font
