@@ -1,0 +1,42 @@
+List of components:
+*2x 0.01u capacitors
+*4x 0.1u capacitors
+*3x 1u capacitors
+*5x 100u capacitors
+*2x 0.47u capacitors
+*1x 4.7u capacitor
+*1x 470u capacitor
+*2x 57u capacitors
+*3x 220u capacitors
+*1x 680u capacitor
+
+*1x regular diode (1N4007)
+*1x shottky diode (1N5822)
+
+*4x  ferrite bead
+
+*1x 1x02 connector
+*1x 1x03 connector
+*1x barrel jack connector
+
+*1x 33u inductor
+
+*2x generic speakers
+*1x MOSFET (FDMS86255)
+
+*3x 4.7k resistors
+*3x 100 resistors
+*3x 10k resistors
+*1x 47k resistor
+*1x 10 resistor
+*1x 1 resistor
+*1x 47 resistor
+*1x 1k resistor
+*2x 18k resistor
+
+*1x Audio Codec
+*1x Buck Converter
+*1x Audio Amplifier
+*1x Temperature Sensor
+*1x ESP32_C3_Zero
+

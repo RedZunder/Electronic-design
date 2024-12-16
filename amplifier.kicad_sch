@@ -2596,7 +2596,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "18k"
 			(at 96.52 88.9 90)
 			(effects
 				(font
@@ -3053,7 +3053,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "18k"
 			(at 116.84 68.58 90)
 			(effects
 				(font
