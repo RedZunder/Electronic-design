@@ -2627,7 +2627,7 @@
 			(uuid "10206bd2-6054-49eb-be16-462bd4824797")
 		)
 		(instances
-			(project ""
+			(project "plant caretaker"
 				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906/57a337a3-c367-4ad3-adc0-1aeb321dd5f9"
 					(reference "#FLG07")
 					(unit 1)
@@ -3196,7 +3196,7 @@
 			(uuid "eb5e520f-c8c2-4631-9cbf-38a7cb0dac00")
 		)
 		(instances
-			(project ""
+			(project "plant caretaker"
 				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906/57a337a3-c367-4ad3-adc0-1aeb321dd5f9"
 					(reference "#PWR036")
 					(unit 1)

@@ -1152,7 +1152,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TMP175AIDR:SOIC127P599X175-8N"
+		(property "Footprint" "TMP175AIDR:TMP-SOIC127P599X175-8N"
 			(at 138.43 83.82 0)
 			(effects
 				(font
