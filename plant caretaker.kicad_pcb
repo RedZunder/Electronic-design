@@ -105,7 +105,7 @@
 	)
 	(net 0 "")
 	(net 1 "GND")
-	(net 2 "Net-(D3-K)")
+	(net 2 "/BuckConverter/12V")
 	(net 3 "/BuckConverter/5V_OUT")
 	(net 4 "+3V3")
 	(net 5 "/AudioCodec/VDDD")
@@ -162,7 +162,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "081bc3f0-8a79-4a2e-8fb9-e13c1c709e1a")
-		(at 108.625 33.17)
+		(at 92.835 29.47)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R11"
@@ -582,7 +582,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "0b52625b-81d2-4a6d-b17e-f80f435274e6")
-		(at 108.625 40.7)
+		(at 92.835 37)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R14"
@@ -1885,7 +1885,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "2338e313-56ff-4f06-9671-f9a5be427e3b")
-		(at 100.605 43.21)
+		(at 84.815 39.51)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C19"
@@ -2446,7 +2446,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "2a89974b-19de-45c3-ac5e-5ae656549a38")
-		(at 108.625 30.66)
+		(at 92.835 26.96)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R9"
@@ -2866,7 +2866,7 @@
 	(footprint "ESP32_C3_ZERO_Library:ESP32_C3_ZERO"
 		(layer "F.Cu")
 		(uuid "420fced4-516f-45da-9b5f-92a9a7d0ddd5")
-		(at 64.38 33.135)
+		(at 100.76 32)
 		(property "Reference" "U6"
 			(at 0 -2.54 0)
 			(unlocked yes)
@@ -3228,7 +3228,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "45910530-b66d-44bc-903d-1b78de7e862a")
-		(at 108.625 43.21)
+		(at 92.835 39.51)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R15"
@@ -3438,7 +3438,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "48e73603-f55f-4137-8f5a-ee97c1696c51")
-		(at 100.605 40.7)
+		(at 84.815 37)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C10"
@@ -3652,7 +3652,7 @@
 		(descr "SMD capacitor, aluminum electrolytic, Vishay 1012, 10.0x12.5mm, http://www.vishay.com/docs/28395/150crz.pdf")
 		(tags "capacitor electrolytic")
 		(property "Reference" "C1"
-			(at 0 -6.3 360)
+			(at 0 -6.3 0)
 			(layer "F.SilkS")
 			(uuid "fae8e014-d0bf-47c6-8e4c-be3f78ad2536")
 			(effects
@@ -3663,7 +3663,7 @@
 			)
 		)
 		(property "Value" "680u"
-			(at 0 6.3 360)
+			(at 0 6.3 0)
 			(layer "F.Fab")
 			(uuid "c18ad649-184d-492e-88c4-ff00a1bd1f31")
 			(effects
@@ -4046,7 +4046,7 @@
 			(uuid "d5ff43ef-8292-4f3d-8d2c-0bc354b7c7fc")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "e6a212dd-c803-4ce9-b068-ae0b93c74cd1")
 			(effects
@@ -4061,7 +4061,7 @@
 			(size 4.4 2.5)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 2 "Net-(D3-K)")
+			(net 2 "/BuckConverter/12V")
 			(pintype "passive")
 			(uuid "ed13ccc8-d099-467b-bfc8-b172122b424f")
 		)
@@ -4089,11 +4089,11 @@
 	(footprint "Package_TO_SOT_SMD:TDSON-8-1"
 		(layer "F.Cu")
 		(uuid "4f27dba7-034c-430e-8768-54330a6d990c")
-		(at 99.2 109.65)
+		(at 105.635 111.4 -90)
 		(descr "Power MOSFET package, TDSON-8-1, 5.15x5.9mm (https://www.infineon.com/cms/en/product/packages/PG-TDSON/PG-TDSON-8-1/)")
 		(tags "tdson ")
 		(property "Reference" "Q1"
-			(at 0 -3.5 0)
+			(at 0 -3.5 90)
 			(layer "F.SilkS")
 			(uuid "41119a64-c4bf-427d-a102-b34184966332")
 			(effects
@@ -4104,7 +4104,7 @@
 			)
 		)
 		(property "Value" "FDMS86255"
-			(at 0 3.5 0)
+			(at 0 3.5 90)
 			(layer "F.Fab")
 			(uuid "8d063c05-b4bb-424b-9c91-3eab6ba0bbbb")
 			(effects
@@ -4115,7 +4115,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4127,7 +4127,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/FDMS86255-D.pdf"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4139,7 +4139,7 @@
 			)
 		)
 		(property "Description" "10A Id, 150V Vds, N-Channel Shielded Gate PowerTrench MOSFET, 12.4mOhm Ron, 63nC Qgmax, -55 to 150 °C, 5x6mm SON8"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4156,16 +4156,6 @@
 		(sheetfile "buck.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 3.06 -2.685)
-			(end -2.62 -2.685)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c693ee1c-278b-40d1-b053-30ac9bfcb01f")
-		)
-		(fp_line
 			(start 3.06 2.685)
 			(end -3.06 2.685)
 			(stroke
@@ -4174,6 +4164,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "18091e72-8c4c-4f84-af56-40120ea9eeb4")
+		)
+		(fp_line
+			(start 3.06 -2.685)
+			(end -2.62 -2.685)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c693ee1c-278b-40d1-b053-30ac9bfcb01f")
 		)
 		(fp_poly
 			(pts
@@ -4188,16 +4188,6 @@
 			(uuid "065421ae-d0dd-4225-93b5-76fee9f01ba8")
 		)
 		(fp_line
-			(start -3.58 -2.83)
-			(end -3.58 2.83)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "206da730-64d3-498f-b304-c9c4e1a42831")
-		)
-		(fp_line
 			(start -3.58 2.83)
 			(end 3.58 2.83)
 			(stroke
@@ -4206,16 +4196,6 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "4d840ef0-9f4a-4184-89ee-41884fdd836b")
-		)
-		(fp_line
-			(start 3.58 -2.83)
-			(end -3.58 -2.83)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "d49b0ebc-bc13-40ad-a8dc-0c9e1d0a31e5")
 		)
 		(fp_line
 			(start 3.58 2.83)
@@ -4228,6 +4208,26 @@
 			(uuid "4c60afa1-12dd-4fed-b746-60aa1f186f46")
 		)
 		(fp_line
+			(start -3.58 -2.83)
+			(end -3.58 2.83)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "206da730-64d3-498f-b304-c9c4e1a42831")
+		)
+		(fp_line
+			(start 3.58 -2.83)
+			(end -3.58 -2.83)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d49b0ebc-bc13-40ad-a8dc-0c9e1d0a31e5")
+		)
+		(fp_line
 			(start -2.95 2.575)
 			(end -2.95 -1.575)
 			(stroke
@@ -4236,6 +4236,16 @@
 			)
 			(layer "F.Fab")
 			(uuid "a86ace11-695f-4c60-88bd-ba88d04bf170")
+		)
+		(fp_line
+			(start 2.95 2.575)
+			(end -2.95 2.575)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "13fca5f6-8956-4290-9968-6192ef2d353a")
 		)
 		(fp_line
 			(start -1.95 -2.575)
@@ -4267,18 +4277,8 @@
 			(layer "F.Fab")
 			(uuid "1cc17b22-b918-4496-b27c-466b8678a775")
 		)
-		(fp_line
-			(start 2.95 2.575)
-			(end -2.95 2.575)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "13fca5f6-8956-4290-9968-6192ef2d353a")
-		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "a54e200b-fb54-498d-9577-3d9897763b7b")
 			(effects
@@ -4289,21 +4289,21 @@
 			)
 		)
 		(pad "" smd roundrect
-			(at -0.2 -0.85)
+			(at -0.2 -0.85 270)
 			(size 1.5 1.5)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "f9180ea9-90ab-4e84-987e-e07a67e216fc")
 		)
 		(pad "" smd roundrect
-			(at -0.2 0.85)
+			(at -0.2 0.85 270)
 			(size 1.5 1.5)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "c608f228-d12a-4aae-8b58-87a674d071c9")
 		)
 		(pad "" smd custom
-			(at 0.65 0)
+			(at 0.65 0 270)
 			(size 3.75 4.41)
 			(layers "F.Mask")
 			(zone_connect 0)
@@ -4345,49 +4345,49 @@
 			(uuid "ae493f3a-1ee8-46ff-8da3-4d2d51e27f6b")
 		)
 		(pad "" smd roundrect
-			(at 1.5 -0.85)
+			(at 1.5 -0.85 270)
 			(size 1.5 1.5)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "543c7bd3-de18-4137-b6e1-a82c271b6bf7")
 		)
 		(pad "" smd roundrect
-			(at 1.5 0.85)
+			(at 1.5 0.85 270)
 			(size 1.5 1.5)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "fd1b5fdd-c6ed-4b7c-937f-b469a65fe445")
 		)
 		(pad "" smd roundrect
-			(at 2.905 -1.905)
+			(at 2.905 -1.905 270)
 			(size 0.75 0.5)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "894d1fee-c068-499a-bde9-312a8cb1f4b5")
 		)
 		(pad "" smd roundrect
-			(at 2.905 -0.635)
+			(at 2.905 -0.635 270)
 			(size 0.75 0.5)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "a6527ce1-59ed-4834-b8a7-934aaef23d67")
 		)
 		(pad "" smd roundrect
-			(at 2.905 0.635)
+			(at 2.905 0.635 270)
 			(size 0.75 0.5)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "39af36bc-3144-4777-a1cd-3df78034cf75")
 		)
 		(pad "" smd roundrect
-			(at 2.905 1.905)
+			(at 2.905 1.905 270)
 			(size 0.75 0.5)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "1ab16bf7-2a2e-4f01-a107-51aa7d378f03")
 		)
 		(pad "1" smd roundrect
-			(at -2.9 -1.905)
+			(at -2.9 -1.905 270)
 			(size 0.85 0.5)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -4398,7 +4398,7 @@
 			(uuid "44121cc6-5d2e-40ff-916e-207dd833720f")
 		)
 		(pad "2" smd roundrect
-			(at -2.9 -0.635)
+			(at -2.9 -0.635 270)
 			(size 0.85 0.5)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -4409,7 +4409,7 @@
 			(uuid "6eb01a24-0b2e-424b-b738-d3fb47db6c3f")
 		)
 		(pad "3" smd roundrect
-			(at -2.9 0.635)
+			(at -2.9 0.635 270)
 			(size 0.85 0.5)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -4420,7 +4420,7 @@
 			(uuid "456e4ab9-3115-4b8d-b60c-3fc402e31d8c")
 		)
 		(pad "4" smd roundrect
-			(at -2.9 1.905)
+			(at -2.9 1.905 270)
 			(size 0.85 0.5)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -4431,7 +4431,7 @@
 			(uuid "0c0b25a7-392a-4d36-a966-3dab06d96251")
 		)
 		(pad "5" smd rect
-			(at 1.05 0)
+			(at 1.05 0 270)
 			(size 4.55 4.41)
 			(layers "F.Cu")
 			(net 24 "Net-(D3-A)")
@@ -4664,11 +4664,11 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "5f003ee8-1697-4659-a143-0dd98a713b66")
-		(at 98.175 118.5)
+		(at 101 102.175 -90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R17"
-			(at 0 -1.43 0)
+			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(uuid "1a05225c-3e9e-49a3-9f8f-b7407cdb6edd")
 			(effects
@@ -4679,7 +4679,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 0 1.43 0)
+			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "6b26ab23-321d-42af-9d09-933556bc6354")
 			(effects
@@ -4690,7 +4690,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4702,7 +4702,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4714,7 +4714,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4731,16 +4731,6 @@
 		(sheetfile "buck.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -0.237258 -0.5225)
-			(end 0.237258 -0.5225)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ff8381d9-6ede-4898-86e4-02d6b77f1b50")
-		)
-		(fp_line
 			(start -0.237258 0.5225)
 			(end 0.237258 0.5225)
 			(stroke
@@ -4751,14 +4741,14 @@
 			(uuid "e2ea28d6-72cd-4105-8797-c65b0b9a19b6")
 		)
 		(fp_line
-			(start -1.48 -0.73)
-			(end 1.48 -0.73)
+			(start -0.237258 -0.5225)
+			(end 0.237258 -0.5225)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "1e30fd76-d706-4904-9326-7341f283a65b")
+			(layer "F.SilkS")
+			(uuid "ff8381d9-6ede-4898-86e4-02d6b77f1b50")
 		)
 		(fp_line
 			(start -1.48 0.73)
@@ -4771,16 +4761,6 @@
 			(uuid "ff634db6-8b27-4f7e-8712-7dc262bbd993")
 		)
 		(fp_line
-			(start 1.48 -0.73)
-			(end 1.48 0.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "5f1ec49d-f2a8-4b8b-a0bd-7767af87b4e8")
-		)
-		(fp_line
 			(start 1.48 0.73)
 			(end -1.48 0.73)
 			(stroke
@@ -4791,14 +4771,24 @@
 			(uuid "124b44ef-44e0-426a-a501-5d831e56f6e5")
 		)
 		(fp_line
-			(start -0.8 -0.4125)
-			(end 0.8 -0.4125)
+			(start -1.48 -0.73)
+			(end 1.48 -0.73)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "294b8f55-e5d5-4467-a67b-5059f577f62b")
+			(layer "F.CrtYd")
+			(uuid "1e30fd76-d706-4904-9326-7341f283a65b")
+		)
+		(fp_line
+			(start 1.48 -0.73)
+			(end 1.48 0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "5f1ec49d-f2a8-4b8b-a0bd-7767af87b4e8")
 		)
 		(fp_line
 			(start -0.8 0.4125)
@@ -4811,16 +4801,6 @@
 			(uuid "a9a15998-84e7-420e-bffb-bcf33b7c3ac3")
 		)
 		(fp_line
-			(start 0.8 -0.4125)
-			(end 0.8 0.4125)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "ad052e96-b536-4d14-9566-f3c129d3d242")
-		)
-		(fp_line
 			(start 0.8 0.4125)
 			(end -0.8 0.4125)
 			(stroke
@@ -4830,8 +4810,28 @@
 			(layer "F.Fab")
 			(uuid "a6ed53b7-0d8d-4287-b805-1943ecc2011b")
 		)
+		(fp_line
+			(start -0.8 -0.4125)
+			(end 0.8 -0.4125)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "294b8f55-e5d5-4467-a67b-5059f577f62b")
+		)
+		(fp_line
+			(start 0.8 -0.4125)
+			(end 0.8 0.4125)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ad052e96-b536-4d14-9566-f3c129d3d242")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "ad631182-82c4-43b4-ade8-0fba1a342076")
 			(effects
@@ -4842,7 +4842,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.825 0)
+			(at -0.825 0 270)
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -4851,7 +4851,7 @@
 			(uuid "d2fcec8c-ff9b-4204-8ac1-1e7117015163")
 		)
 		(pad "2" smd roundrect
-			(at 0.825 0)
+			(at 0.825 0 270)
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -5015,7 +5015,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "644c9272-a437-4907-bfdb-0f3eaeb16480")
-		(at 108.625 35.68)
+		(at 92.835 31.98)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R12"
@@ -5225,7 +5225,7 @@
 	(footprint "TMP175AIDR:TMP-SOIC127P599X175-8N"
 		(layer "F.Cu")
 		(uuid "7c24cff9-46aa-449f-85ac-92060594f537")
-		(at 83.21 19.805)
+		(at 150.47 50.905)
 		(property "Reference" "U2"
 			(at -0.385 -3.537 0)
 			(layer "F.SilkS")
@@ -5747,7 +5747,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "802a2e48-e957-4852-983d-67a0b8e27902")
-		(at 104.615 38.19)
+		(at 88.825 34.49)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C24"
@@ -6167,7 +6167,7 @@
 	(footprint "Diode_SMD:D_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "8980c5e8-565e-46c9-b86f-1575b3e85e72")
-		(at 104.5 117.5 180)
+		(at 106.5 120 180)
 		(descr "Diode SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D3"
@@ -6395,7 +6395,7 @@
 			(size 0.875 0.95)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 2 "Net-(D3-K)")
+			(net 2 "/BuckConverter/12V")
 			(pinfunction "K")
 			(pintype "passive")
 			(uuid "0179c86c-b24f-4aec-adc1-b3d6eb1b3547")
@@ -6425,7 +6425,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "91f0da02-4c82-44f4-bbd2-da3ecdd37e2a")
-		(at 108.625 45.72)
+		(at 92.835 42.02)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R16"
@@ -6635,7 +6635,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "98a3505c-9e31-48dc-8c6f-874ed9f47ebb")
-		(at 100.605 38.19)
+		(at 84.815 34.49)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C7"
@@ -6845,7 +6845,7 @@
 	(footprint "Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Vertical_SMD_Pin1Left"
 		(layer "F.Cu")
 		(uuid "99ebe8d9-15b7-47e2-b318-c649548f775f")
-		(at 89.805 55.21)
+		(at 149.125 61.5)
 		(descr "surface-mounted straight pin header, 1x03, 1.00mm pitch, single row, style 1 (pin 1 left)")
 		(tags "Surface mounted pin header SMD 1x03 1.00mm single row style1 pin1 left")
 		(property "Reference" "J4"
@@ -7224,7 +7224,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "9a2ad377-1c16-4f33-bd0a-6445de0d21b4")
-		(at 104.615 33.17)
+		(at 88.825 29.47)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C22"
@@ -8146,7 +8146,7 @@
 			(size 2 2)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.125)
-			(net 2 "Net-(D3-K)")
+			(net 2 "/BuckConverter/12V")
 			(pintype "passive")
 			(uuid "aff2316e-cd15-4df7-a8d4-e519a2fafae7")
 		)
@@ -8155,7 +8155,7 @@
 			(size 2 2)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.125)
-			(net 2 "Net-(D3-K)")
+			(net 2 "/BuckConverter/12V")
 			(pintype "passive")
 			(uuid "17713091-faba-4e87-8bba-caad3afca887")
 		)
@@ -8614,7 +8614,7 @@
 	(footprint "UDA1380HN_N2:QFN50P500X500X100-32N"
 		(layer "F.Cu")
 		(uuid "a261771b-9881-4b49-99f6-035329a64867")
-		(at 125.2162 27.9626)
+		(at 75.5362 31.262)
 		(property "Reference" "U1"
 			(at 1.752775 -5.486955 0)
 			(layer "F.SilkS")
@@ -8627,7 +8627,7 @@
 			)
 		)
 		(property "Value" "UDA1380HN_N2"
-			(at 18.433665 5.441095 0)
+			(at 12.2838 4.0374 0)
 			(layer "F.Fab")
 			(uuid "42430666-77eb-4517-ab64-2036b6827d36")
 			(effects
@@ -9630,7 +9630,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "a2a8e499-f7f4-42ee-9aa8-bb0ef0875ff5")
-		(at 104.615 30.66)
+		(at 88.825 26.96)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C21"
@@ -10050,7 +10050,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "aaef2cce-9401-4741-b70d-8702de090581")
-		(at 104.615 45.72)
+		(at 88.825 42.02)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R6"
@@ -10260,7 +10260,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "bb8d01c9-96dd-4bc8-8622-ad22b9a38a26")
-		(at 100.605 30.66)
+		(at 84.815 26.96)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C4"
@@ -10915,7 +10915,7 @@
 		(descr "TO-263/D2PAK/DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-5-1/")
 		(tags "D2PAK DDPAK TO-263 D2PAK-5 TO-263-5 SOT-426")
 		(property "Reference" "U4"
-			(at 0 -6.65 270)
+			(at 0 -6.65 -90)
 			(layer "F.SilkS")
 			(uuid "715e8f1d-c2c1-4006-b58d-36cbe7384dd8")
 			(effects
@@ -10926,7 +10926,7 @@
 			)
 		)
 		(property "Value" "LM2596S-5"
-			(at 0 6.65 270)
+			(at 0 6.65 -90)
 			(layer "F.Fab")
 			(uuid "337d17c0-a054-4d6c-b734-9700cb10e55f")
 			(effects
@@ -11300,7 +11300,7 @@
 			(uuid "479c7744-0872-4760-a5cc-377046ecfe0d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "a0fe6039-a57c-4d00-ae43-6f488dba460f")
 			(effects
@@ -11315,7 +11315,7 @@
 			(size 4.6 1.1)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.227273)
-			(net 2 "Net-(D3-K)")
+			(net 2 "/BuckConverter/12V")
 			(pinfunction "VIN")
 			(pintype "power_in")
 			(uuid "e0342c25-2e94-4c8b-9448-9e5a0e6c5219")
@@ -11425,7 +11425,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "c20c2b85-6385-45b1-b1ad-6f55dbd61963")
-		(at 100.605 35.68)
+		(at 84.815 31.98)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C6"
@@ -11635,7 +11635,7 @@
 	(footprint "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical_SMD_Pin1Right"
 		(layer "F.Cu")
 		(uuid "cc6640ab-4862-4673-b16a-2e8cba5e1e05")
-		(at 93.395 116.68)
+		(at 106.625 126.5)
 		(descr "surface-mounted straight pin header, 1x02, 1.00mm pitch, single row, style 2 (pin 1 right)")
 		(tags "Surface mounted pin header SMD 1x02 1.00mm single row style2 pin1 right")
 		(property "Reference" "J3"
@@ -11955,7 +11955,7 @@
 			(at -0.875 0.5)
 			(size 1.75 0.6)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 2 "Net-(D3-K)")
+			(net 2 "/BuckConverter/12V")
 			(pinfunction "Pin_2")
 			(pintype "passive")
 			(uuid "b0316220-6a60-4a4d-8dc8-8fe8982c6cbf")
@@ -12185,7 +12185,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "d20111e8-6aa0-4c82-9444-9388ff52ff56")
-		(at 108.625 38.19)
+		(at 92.835 34.49)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R13"
@@ -12605,7 +12605,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "d63774ed-e45d-499a-beff-73d4cafe6303")
-		(at 104.615 35.68)
+		(at 88.825 31.98)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C23"
@@ -13025,7 +13025,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "db6d3a62-87fd-4b14-ae2f-248f1215d00a")
-		(at 100.605 33.17)
+		(at 84.815 29.47)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C5"
@@ -13445,7 +13445,7 @@
 	(footprint "Package_SO:SOP-16_3.9x9.9mm_P1.27mm"
 		(layer "F.Cu")
 		(uuid "deb7fa99-a400-43d0-81cf-cc2366cd193d")
-		(at 109.18 76.535)
+		(at 73.5 50.175)
 		(descr "SOP, 16 Pin (https://www.diodes.com/assets/Datasheets/PAM8403.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOP SO")
 		(property "Reference" "U5"
@@ -14049,7 +14049,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "e22f77fe-4fa0-4398-8698-ec7601d56695")
-		(at 100.605 45.72)
+		(at 84.815 42.02)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C20"
@@ -14259,7 +14259,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "e258c895-3a9c-418a-b5ae-36cb6ea38a45")
-		(at 104.615 40.7)
+		(at 88.825 37)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R4"
@@ -14469,7 +14469,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "ebff0655-b0a2-4119-b36c-f8c66d2eeb38")
-		(at 104.615 43.21)
+		(at 88.825 39.51)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R5"
@@ -15027,13 +15027,45 @@
 			(uuid "68d42215-4482-49a5-b494-f826883977eb")
 		)
 	)
-	(segment
-		(start 123.5 136.075)
-		(end 127.925 136.075)
-		(width 0.6)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "18194810-edb3-45f0-acd0-b32942bb0baf")
+	(gr_line
+		(start 142 141.5)
+		(end 142 43)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "0939c116-9c70-4aa1-bd6a-30e392902d5a")
+	)
+	(gr_line
+		(start 142 43)
+		(end 81.5 43)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c1026537-0edd-4a36-9ae8-3ed935065dd2")
+	)
+	(gr_line
+		(start 82.5 141.5)
+		(end 142 141.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d1c4ba9e-419a-456a-b231-5cf9f3ff35ec")
+	)
+	(gr_line
+		(start 81.5 43)
+		(end 82.5 141.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ff88fd97-bc40-44db-b301-0b8808efb457")
 	)
 	(segment
 		(start 115.7875 113.4875)
@@ -15058,118 +15090,6 @@
 		(layer "F.Cu")
 		(net 1)
 		(uuid "4f2b34f1-5b94-4c1b-8b3c-489df95eb83d")
-	)
-	(segment
-		(start 127.925 136.075)
-		(end 129.5 134.5)
-		(width 0.6)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "53b8d002-7e66-4aae-aaa4-6b511672650a")
-	)
-	(segment
-		(start 124.5 128.925)
-		(end 123.5 129.925)
-		(width 0.6)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "7418f2e6-122b-4b61-8be6-f3daccfc52f8")
-	)
-	(segment
-		(start 123.5 136.075)
-		(end 123.5 129.925)
-		(width 0.6)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "c0d47458-7b87-491f-a914-1a30357be8ee")
-	)
-	(segment
-		(start 129.5 134.5)
-		(end 129.5 102)
-		(width 0.6)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "c86f17f1-f676-45dd-89f9-8e54b955b599")
-	)
-	(segment
-		(start 124.5 124.7)
-		(end 124.5 128.925)
-		(width 0.6)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "ea7100d7-6d31-4ce6-8010-b0ba177905e1")
-	)
-	(segment
-		(start 112.5 129.925)
-		(end 112.5 124.5)
-		(width 0.6)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "27f44b17-5fad-4166-9f3e-483807ec6762")
-	)
-	(segment
-		(start 108.5 117.5)
-		(end 105.2875 117.5)
-		(width 0.6)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "38715c6b-650d-4fa0-a34b-e6e6964c6e79")
-	)
-	(segment
-		(start 112.5 136.075)
-		(end 112.5 129.925)
-		(width 0.6)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "3eceab2f-407f-4c55-870f-81838e205592")
-	)
-	(segment
-		(start 108.5 117.5)
-		(end 108.5 95.6)
-		(width 0.6)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "72709403-1053-43bf-ab0a-f8e446e7dea5")
-	)
-	(segment
-		(start 112.6 115.575)
-		(end 112.6 113.275)
-		(width 0.6)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "76e70b8b-4538-427d-9b5e-dd4a7fde14f3")
-	)
-	(segment
-		(start 112.5 113.375)
-		(end 112.6 113.275)
-		(width 0.6)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "77560bad-7653-4087-a9c8-3684c9056608")
-	)
-	(segment
-		(start 112.5 121.5)
-		(end 108.5 117.5)
-		(width 0.6)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "9190a2e1-a3d3-44e8-bca1-43220170db97")
-	)
-	(segment
-		(start 112.5 124.5)
-		(end 112.5 121.5)
-		(width 0.6)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "e2ee31a4-b8dd-48a2-b454-a93e83f6c757")
-	)
-	(segment
-		(start 112.5 121.5)
-		(end 112.5 113.375)
-		(width 0.6)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "edc5860f-c489-498e-9c57-ee9d6cd9df07")
 	)
 	(segment
 		(start 108.5 95.6)
@@ -15258,5 +15178,245 @@
 		(layer "F.Cu")
 		(net 23)
 		(uuid "fbc4da48-176b-4bb8-a0d4-39dfdec5faad")
+	)
+	(segment
+		(start 105.7125 120)
+		(end 105.7125 112.5275)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 24)
+		(uuid "2dbab3ee-6ce3-461b-b361-af67279822a4")
+	)
+	(segment
+		(start 107.5 126)
+		(end 107.5 125.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 24)
+		(uuid "33a8ca17-bc73-48d8-bc91-2763436fc7dc")
+	)
+	(segment
+		(start 107.5 125.5)
+		(end 105.7125 123.7125)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 24)
+		(uuid "6b255ab1-34b4-42a8-b0ea-d5d0729642ef")
+	)
+	(segment
+		(start 105.7125 112.5275)
+		(end 105.635 112.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 24)
+		(uuid "96b8b657-4a4b-46db-88ef-a2920da3c2b8")
+	)
+	(segment
+		(start 105.7125 123.7125)
+		(end 105.7125 120)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 24)
+		(uuid "ba719108-e4d1-40b4-9278-6c46cdec0898")
+	)
+	(zone
+		(net 2)
+		(net_name "/BuckConverter/12V")
+		(layer "F.Cu")
+		(uuid "3e3f1820-9cc1-41e4-b0f7-ef26c0d8c239")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0.5)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 102.5 106.5) (xy 110 106.5) (xy 110 110) (xy 113.5 110) (xy 113.5 125.5) (xy 117.5 125.5) (xy 117.5 138)
+				(xy 102.5 138)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 109.943039 106.519685) (xy 109.988794 106.572489) (xy 110 106.624) (xy 110 110) (xy 113.376 110)
+				(xy 113.443039 110.019685) (xy 113.488794 110.072489) (xy 113.5 110.124) (xy 113.5 110.491714) (xy 113.480315 110.558753)
+				(xy 113.427511 110.604508) (xy 113.358353 110.614452) (xy 113.310904 110.597253) (xy 113.219128 110.540645)
+				(xy 113.219119 110.540641) (xy 113.052697 110.485494) (xy 113.05269 110.485493) (xy 112.949986 110.475)
+				(xy 112.85 110.475) (xy 112.85 116.074999) (xy 112.949972 116.074999) (xy 112.949986 116.074998)
+				(xy 113.052697 116.064505) (xy 113.219119 116.009358) (xy 113.21913 116.009353) (xy 113.310903 115.952747)
+				(xy 113.378295 115.934306) (xy 113.444959 115.955228) (xy 113.489728 116.00887) (xy 113.5 116.058285)
+				(xy 113.5 118.168966) (xy 113.480315 118.236005) (xy 113.463681 118.256647) (xy 113.425719 118.294608)
+				(xy 113.425716 118.294612) (xy 113.337455 118.437704) (xy 113.337451 118.437713) (xy 113.284564 118.597315)
+				(xy 113.284564 118.597316) (xy 113.284563 118.597316) (xy 113.2745 118.695818) (xy 113.2745 119.304181)
+				(xy 113.284563 119.402683) (xy 113.33745 119.562284) (xy 113.337455 119.562295) (xy 113.425716 119.705387)
+				(xy 113.425719 119.705391) (xy 113.463681 119.743353) (xy 113.497166 119.804676) (xy 113.5 119.831034)
+				(xy 113.5 122.570476) (xy 113.497253 122.596433) (xy 113.497063 122.597316) (xy 113.487 122.695818)
+				(xy 113.487 123.304183) (xy 113.497063 123.402684) (xy 113.497251 123.403559) (xy 113.5 123.429523)
+				(xy 113.5 125.5) (xy 117.376 125.5) (xy 117.443039 125.519685) (xy 117.488794 125.572489) (xy 117.5 125.624)
+				(xy 117.5 130.462538) (xy 117.480315 130.529577) (xy 117.432296 130.573022) (xy 117.397004 130.591004)
+				(xy 117.250505 130.697441) (xy 117.2505 130.697445) (xy 117.122445 130.8255) (xy 117.122441 130.825505)
+				(xy 117.016006 130.972002) (xy 116.933788 131.13336) (xy 116.933787 131.133363) (xy 116.877829 131.305589)
+				(xy 116.8495 131.484448) (xy 116.8495 131.665551) (xy 116.877829 131.84441) (xy 116.933787 132.016636)
+				(xy 116.933788 132.016639) (xy 117.016006 132.177997) (xy 117.122441 132.324494) (xy 117.122445 132.324499)
+				(xy 117.2505 132.452554) (xy 117.250505 132.452558) (xy 117.397004 132.558995) (xy 117.432294 132.576976)
+				(xy 117.48309 132.624949) (xy 117.5 132.687461) (xy 117.5 135.079383) (xy 117.480315 135.146422)
+				(xy 117.444891 135.182485) (xy 117.330345 135.259022) (xy 117.330341 135.259025) (xy 117.184024 135.405342)
+				(xy 117.069058 135.577403) (xy 116.98987 135.768579) (xy 116.989868 135.768587) (xy 116.9495 135.97153)
+				(xy 116.9495 136.178469) (xy 116.989868 136.381412) (xy 116.98987 136.38142) (xy 117.069058 136.572596)
+				(xy 117.184024 136.744657) (xy 117.330342 136.890975) (xy 117.330345 136.890977) (xy 117.444891 136.967514)
+				(xy 117.489695 137.021124) (xy 117.5 137.070615) (xy 117.5 137.876) (xy 117.480315 137.943039) (xy 117.427511 137.988794)
+				(xy 117.376 138) (xy 102.624 138) (xy 102.556961 137.980315) (xy 102.511206 137.927511) (xy 102.5 137.876)
+				(xy 102.5 136.325) (xy 111.000001 136.325) (xy 111.000001 136.874986) (xy 111.010494 136.977697)
+				(xy 111.065641 137.144119) (xy 111.065643 137.144124) (xy 111.157684 137.293345) (xy 111.281654 137.417315)
+				(xy 111.430875 137.509356) (xy 111.43088 137.509358) (xy 111.597302 137.564505) (xy 111.597309 137.564506)
+				(xy 111.700019 137.574999) (xy 112.249999 137.574999) (xy 112.25 137.574998) (xy 112.25 136.325)
+				(xy 112.75 136.325) (xy 112.75 137.574999) (xy 113.299972 137.574999) (xy 113.299986 137.574998)
+				(xy 113.402697 137.564505) (xy 113.569119 137.509358) (xy 113.569124 137.509356) (xy 113.718345 137.417315)
+				(xy 113.842315 137.293345) (xy 113.934356 137.144124) (xy 113.934358 137.144119) (xy 113.989505 136.977697)
+				(xy 113.989506 136.97769) (xy 113.999999 136.874986) (xy 114 136.874973) (xy 114 136.325) (xy 112.75 136.325)
+				(xy 112.25 136.325) (xy 111.000001 136.325) (xy 102.5 136.325) (xy 102.5 135.825) (xy 111 135.825)
+				(xy 112.25 135.825) (xy 112.25 134.575) (xy 112.75 134.575) (xy 112.75 135.825) (xy 113.999999 135.825)
+				(xy 113.999999 135.275028) (xy 113.999998 135.275013) (xy 113.989505 135.172302) (xy 113.934358 135.00588)
+				(xy 113.934356 135.005875) (xy 113.842315 134.856654) (xy 113.718345 134.732684) (xy 113.569124 134.640643)
+				(xy 113.569119 134.640641) (xy 113.402697 134.585494) (xy 113.40269 134.585493) (xy 113.299986 134.575)
+				(xy 112.75 134.575) (xy 112.25 134.575) (xy 111.700028 134.575) (xy 111.700012 134.575001) (xy 111.597302 134.585494)
+				(xy 111.43088 134.640641) (xy 111.430875 134.640643) (xy 111.281654 134.732684) (xy 111.157684 134.856654)
+				(xy 111.065643 135.005875) (xy 111.065641 135.00588) (xy 111.010494 135.172302) (xy 111.010493 135.172309)
+				(xy 111 135.275013) (xy 111 135.825) (xy 102.5 135.825) (xy 102.5 130.175) (xy 111.000001 130.175)
+				(xy 111.000001 130.724986) (xy 111.010494 130.827697) (xy 111.065641 130.994119) (xy 111.065643 130.994124)
+				(xy 111.157684 131.143345) (xy 111.281654 131.267315) (xy 111.430875 131.359356) (xy 111.43088 131.359358)
+				(xy 111.597302 131.414505) (xy 111.597309 131.414506) (xy 111.700019 131.424999) (xy 112.249999 131.424999)
+				(xy 112.25 131.424998) (xy 112.25 130.175) (xy 112.75 130.175) (xy 112.75 131.424999) (xy 113.299972 131.424999)
+				(xy 113.299986 131.424998) (xy 113.402697 131.414505) (xy 113.569119 131.359358) (xy 113.569124 131.359356)
+				(xy 113.718345 131.267315) (xy 113.842315 131.143345) (xy 113.934356 130.994124) (xy 113.934358 130.994119)
+				(xy 113.989505 130.827697) (xy 113.989506 130.82769) (xy 113.999999 130.724986) (xy 114 130.724973)
+				(xy 114 130.175) (xy 112.75 130.175) (xy 112.25 130.175) (xy 111.000001 130.175) (xy 102.5 130.175)
+				(xy 102.5 129.675) (xy 111 129.675) (xy 112.25 129.675) (xy 112.25 128.425) (xy 112.75 128.425)
+				(xy 112.75 129.675) (xy 113.999999 129.675) (xy 113.999999 129.125028) (xy 113.999998 129.125013)
+				(xy 113.989505 129.022302) (xy 113.934358 128.85588) (xy 113.934356 128.855875) (xy 113.842315 128.706654)
+				(xy 113.718345 128.582684) (xy 113.569124 128.490643) (xy 113.569119 128.490641) (xy 113.402697 128.435494)
+				(xy 113.40269 128.435493) (xy 113.299986 128.425) (xy 112.75 128.425) (xy 112.25 128.425) (xy 111.700028 128.425)
+				(xy 111.700012 128.425001) (xy 111.597302 128.435494) (xy 111.43088 128.490641) (xy 111.430875 128.490643)
+				(xy 111.281654 128.582684) (xy 111.157684 128.706654) (xy 111.065643 128.855875) (xy 111.065641 128.85588)
+				(xy 111.010494 129.022302) (xy 111.010493 129.022309) (xy 111 129.125013) (xy 111 129.675) (xy 102.5 129.675)
+				(xy 102.5 127.25) (xy 104.375 127.25) (xy 104.375 127.347844) (xy 104.381401 127.407372) (xy 104.381403 127.407379)
+				(xy 104.431645 127.542086) (xy 104.431649 127.542093) (xy 104.517809 127.657187) (xy 104.517812 127.65719)
+				(xy 104.632906 127.74335) (xy 104.632913 127.743354) (xy 104.76762 127.793596) (xy 104.767627 127.793598)
+				(xy 104.827155 127.799999) (xy 104.827172 127.8) (xy 105.5 127.8) (xy 105.5 127.25) (xy 106 127.25)
+				(xy 106 127.8) (xy 106.672828 127.8) (xy 106.672844 127.799999) (xy 106.732372 127.793598) (xy 106.732379 127.793596)
+				(xy 106.867086 127.743354) (xy 106.867093 127.74335) (xy 106.982187 127.65719) (xy 106.98219 127.657187)
+				(xy 107.06835 127.542093) (xy 107.068354 127.542086) (xy 107.118596 127.407379) (xy 107.118598 127.407372)
+				(xy 107.124999 127.347844) (xy 107.125 127.347827) (xy 107.125 127.25) (xy 106 127.25) (xy 105.5 127.25)
+				(xy 104.375 127.25) (xy 102.5 127.25) (xy 102.5 126.75) (xy 104.375 126.75) (xy 105.5 126.75) (xy 105.5 126.2)
+				(xy 104.827155 126.2) (xy 104.767627 126.206401) (xy 104.76762 126.206403) (xy 104.632913 126.256645)
+				(xy 104.632906 126.256649) (xy 104.517812 126.342809) (xy 104.517809 126.342812) (xy 104.431649 126.457906)
+				(xy 104.431645 126.457913) (xy 104.381403 126.59262) (xy 104.381401 126.592627) (xy 104.375 126.652155)
+				(xy 104.375 126.75) (xy 102.5 126.75) (xy 102.5 114.77287) (xy 102.9295 114.77287) (xy 102.929501 114.772876)
+				(xy 102.935908 114.832483) (xy 102.986202 114.967328) (xy 102.986206 114.967335) (xy 103.072452 115.082544)
+				(xy 103.072455 115.082547) (xy 103.187664 115.168793) (xy 103.187671 115.168797) (xy 103.322517 115.219091)
+				(xy 103.322516 115.219091) (xy 103.329444 115.219835) (xy 103.382127 115.2255) (xy 104.988 115.225499)
+				(xy 105.055039 115.245184) (xy 105.100794 115.297987) (xy 105.112 115.349499) (xy 105.112 119.064944)
+				(xy 105.092315 119.131983) (xy 105.053099 119.170481) (xy 105.044611 119.175716) (xy 104.925716 119.294612)
+				(xy 104.837455 119.437704) (xy 104.83745 119.437715) (xy 104.83738 119.437927) (xy 104.784564 119.597315)
+				(xy 104.784564 119.597316) (xy 104.784563 119.597316) (xy 104.7745 119.695818) (xy 104.7745 120.304181)
+				(xy 104.784563 120.402683) (xy 104.83745 120.562284) (xy 104.837455 120.562295) (xy 104.925716 120.705387)
+				(xy 104.925719 120.705391) (xy 105.044608 120.82428) (xy 105.044612 120.824283) (xy 105.053097 120.829517)
+				(xy 105.099822 120.881465) (xy 105.112 120.935055) (xy 105.112 123.62583) (xy 105.111999 123.625848)
+				(xy 105.111999 123.791554) (xy 105.111998 123.791554) (xy 105.124156 123.836927) (xy 105.152923 123.944285)
+				(xy 105.152924 123.944287) (xy 105.152923 123.944287) (xy 105.165135 123.965437) (xy 105.165136 123.965439)
+				(xy 105.231975 124.081209) (xy 105.231981 124.081217) (xy 105.350849 124.200085) (xy 105.350855 124.20009)
+				(xy 106.295377 125.144612) (xy 106.328862 125.205935) (xy 106.323878 125.275627) (xy 106.282008 125.331559)
+				(xy 106.267452 125.342455) (xy 106.181206 125.457664) (xy 106.181202 125.457671) (xy 106.13091 125.592513)
+				(xy 106.130909 125.592517) (xy 106.1245 125.652127) (xy 106.1245 125.652134) (xy 106.1245 125.652135)
+				(xy 106.1245 125.652136) (xy 106.124501 126.076) (xy 106.104817 126.143039) (xy 106.052013 126.188794)
+				(xy 106.000501 126.2) (xy 106 126.2) (xy 106 126.75) (xy 106.376931 126.75) (xy 106.420264 126.757818)
+				(xy 106.517517 126.794091) (xy 106.517516 126.794091) (xy 106.524444 126.794835) (xy 106.577127 126.8005)
+				(xy 108.422872 126.800499) (xy 108.482483 126.794091) (xy 108.617331 126.743796) (xy 108.732546 126.657546)
+				(xy 108.818796 126.542331) (xy 108.869091 126.407483) (xy 108.8755 126.347873) (xy 108.875499 125.652128)
+				(xy 108.869091 125.592517) (xy 108.841926 125.519685) (xy 108.818797 125.457671) (xy 108.818793 125.457664)
+				(xy 108.732547 125.342455) (xy 108.732544 125.342452) (xy 108.617335 125.256206) (xy 108.617328 125.256202)
+				(xy 108.482482 125.205908) (xy 108.482483 125.205908) (xy 108.422883 125.199501) (xy 108.422881 125.1995)
+				(xy 108.422873 125.1995) (xy 108.422865 125.1995) (xy 108.091496 125.1995) (xy 108.024457 125.179815)
+				(xy 107.984108 125.137499) (xy 107.98052 125.131284) (xy 106.349319 123.500083) (xy 106.315834 123.43876)
+				(xy 106.313 123.412402) (xy 106.313 120.935055) (xy 106.332685 120.868016) (xy 106.371903 120.829517)
+				(xy 106.376574 120.826635) (xy 106.380391 120.824281) (xy 106.412672 120.792) (xy 106.473995 120.758515)
+				(xy 106.543687 120.763499) (xy 106.588034 120.792) (xy 106.619919 120.823885) (xy 106.762922 120.912091)
+				(xy 106.762927 120.912093) (xy 106.922416 120.964942) (xy 107.020856 120.974999) (xy 107.0375 120.974998)
+				(xy 107.0375 120.25) (xy 107.5375 120.25) (xy 107.5375 120.974999) (xy 107.554136 120.974999) (xy 107.554152 120.974998)
+				(xy 107.652583 120.964943) (xy 107.812072 120.912093) (xy 107.812077 120.912091) (xy 107.95508 120.823885)
+				(xy 108.073885 120.70508) (xy 108.162091 120.562077) (xy 108.162093 120.562072) (xy 108.214942 120.402583)
+				(xy 108.224999 120.30415) (xy 108.225 120.304137) (xy 108.225 120.25) (xy 107.5375 120.25) (xy 107.0375 120.25)
+				(xy 107.0375 119.025) (xy 107.5375 119.025) (xy 107.5375 119.75) (xy 108.224999 119.75) (xy 108.224999 119.695864)
+				(xy 108.224998 119.695847) (xy 108.214943 119.597416) (xy 108.162093 119.437927) (xy 108.162091 119.437922)
+				(xy 108.073885 119.294919) (xy 107.95508 119.176114) (xy 107.812077 119.087908) (xy 107.812072 119.087906)
+				(xy 107.652583 119.035057) (xy 107.55415 119.025) (xy 107.5375 119.025) (xy 107.0375 119.025) (xy 107.0375 119.024999)
+				(xy 107.020856 119.025) (xy 106.922415 119.035057) (xy 106.762927 119.087906) (xy 106.762922 119.087908)
+				(xy 106.619919 119.176114) (xy 106.588033 119.208) (xy 106.526709 119.241485) (xy 106.457018 119.236499)
+				(xy 106.412672 119.207999) (xy 106.380392 119.175719) (xy 106.380388 119.175716) (xy 106.371901 119.170481)
+				(xy 106.325177 119.118532) (xy 106.313 119.064944) (xy 106.313 115.349499) (xy 106.332685 115.28246)
+				(xy 106.385489 115.236705) (xy 106.437 115.225499) (xy 107.887871 115.225499) (xy 107.887872 115.225499)
+				(xy 107.947483 115.219091) (xy 108.082331 115.168796) (xy 108.197546 115.082546) (xy 108.283796 114.967331)
+				(xy 108.334091 114.832483) (xy 108.3405 114.772873) (xy 108.3405 113.525) (xy 111.550001 113.525)
+				(xy 111.550001 115.374986) (xy 111.560494 115.477697) (xy 111.615641 115.644119) (xy 111.615643 115.644124)
+				(xy 111.707684 115.793345) (xy 111.831654 115.917315) (xy 111.980875 116.009356) (xy 111.98088 116.009358)
+				(xy 112.147302 116.064505) (xy 112.147309 116.064506) (xy 112.250019 116.074999) (xy 112.35 116.074998)
+				(xy 112.35 113.525) (xy 111.550001 113.525) (xy 108.3405 113.525) (xy 108.3405 113.025) (xy 111.55 113.025)
+				(xy 112.35 113.025) (xy 112.35 110.474999) (xy 112.250028 110.475) (xy 112.250012 110.475001) (xy 112.147302 110.485494)
+				(xy 111.98088 110.540641) (xy 111.980875 110.540643) (xy 111.831654 110.632684) (xy 111.707684 110.756654)
+				(xy 111.615643 110.905875) (xy 111.615641 110.90588) (xy 111.560494 111.072302) (xy 111.560493 111.072309)
+				(xy 111.55 111.175013) (xy 111.55 113.025) (xy 108.3405 113.025) (xy 108.340499 110.127128) (xy 108.335299 110.078757)
+				(xy 108.334091 110.067516) (xy 108.283797 109.932671) (xy 108.283793 109.932664) (xy 108.197547 109.817455)
+				(xy 108.197544 109.817452) (xy 108.082335 109.731206) (xy 108.082328 109.731202) (xy 107.947482 109.680908)
+				(xy 107.947483 109.680908) (xy 107.887883 109.674501) (xy 107.887881 109.6745) (xy 107.887873 109.6745)
+				(xy 107.887864 109.6745) (xy 103.382129 109.6745) (xy 103.382123 109.674501) (xy 103.322516 109.680908)
+				(xy 103.187671 109.731202) (xy 103.187664 109.731206) (xy 103.072455 109.817452) (xy 103.072452 109.817455)
+				(xy 102.986206 109.932664) (xy 102.986202 109.932671) (xy 102.935908 110.067517) (xy 102.935374 110.072489)
+				(xy 102.929501 110.127123) (xy 102.9295 110.127135) (xy 102.9295 114.77287) (xy 102.5 114.77287)
+				(xy 102.5 108.86315) (xy 102.9795 108.86315) (xy 102.979501 108.863175) (xy 102.982291 108.898627)
+				(xy 103.02638 109.050385) (xy 103.026382 109.05039) (xy 103.106827 109.186416) (xy 103.106834 109.186425)
+				(xy 103.218574 109.298165) (xy 103.218578 109.298168) (xy 103.21858 109.29817) (xy 103.35461 109.378618)
+				(xy 103.506373 109.422709) (xy 103.541837 109.4255) (xy 103.918162 109.425499) (xy 103.953627 109.422709)
+				(xy 104.10539 109.378618) (xy 104.24142 109.29817) (xy 104.241425 109.298165) (xy 104.277319 109.262272)
+				(xy 104.338642 109.228787) (xy 104.408334 109.233771) (xy 104.452681 109.262272) (xy 104.488574 109.298165)
+				(xy 104.488578 109.298168) (xy 104.48858 109.29817) (xy 104.62461 109.378618) (xy 104.776373 109.422709)
+				(xy 104.811837 109.4255) (xy 105.188162 109.425499) (xy 105.223627 109.422709) (xy 105.37539 109.378618)
+				(xy 105.51142 109.29817) (xy 105.511425 109.298165) (xy 105.547319 109.262272) (xy 105.608642 109.228787)
+				(xy 105.678334 109.233771) (xy 105.722681 109.262272) (xy 105.758574 109.298165) (xy 105.758578 109.298168)
+				(xy 105.75858 109.29817) (xy 105.89461 109.378618) (xy 106.046373 109.422709) (xy 106.081837 109.4255)
+				(xy 106.458162 109.425499) (xy 106.493627 109.422709) (xy 106.64539 109.378618) (xy 106.78142 109.29817)
+				(xy 106.781425 109.298165) (xy 106.817319 109.262272) (xy 106.878642 109.228787) (xy 106.948334 109.233771)
+				(xy 106.992681 109.262272) (xy 107.028574 109.298165) (xy 107.028578 109.298168) (xy 107.02858 109.29817)
+				(xy 107.16461 109.378618) (xy 107.316373 109.422709) (xy 107.351837 109.4255) (xy 107.728162 109.425499)
+				(xy 107.763627 109.422709) (xy 107.91539 109.378618) (xy 108.05142 109.29817) (xy 108.16317 109.18642)
+				(xy 108.243618 109.05039) (xy 108.287709 108.898627) (xy 108.2905 108.863163) (xy 108.290499 108.136838)
+				(xy 108.287709 108.101373) (xy 108.243618 107.94961) (xy 108.16317 107.81358) (xy 108.163168 107.813578)
+				(xy 108.163165 107.813574) (xy 108.051425 107.701834) (xy 108.051416 107.701827) (xy 107.91539 107.621382)
+				(xy 107.915385 107.62138) (xy 107.763633 107.577292) (xy 107.76362 107.57729) (xy 107.728163 107.5745)
+				(xy 107.351849 107.5745) (xy 107.351824 107.574501) (xy 107.316372 107.577291) (xy 107.164614 107.62138)
+				(xy 107.164609 107.621382) (xy 107.028583 107.701827) (xy 107.028574 107.701834) (xy 106.992681 107.737728)
+				(xy 106.931358 107.771213) (xy 106.861666 107.766229) (xy 106.817319 107.737728) (xy 106.781425 107.701834)
+				(xy 106.781416 107.701827) (xy 106.64539 107.621382) (xy 106.645385 107.62138) (xy 106.493633 107.577292)
+				(xy 106.49362 107.57729) (xy 106.458163 107.5745) (xy 106.081849 107.5745) (xy 106.081824 107.574501)
+				(xy 106.046372 107.577291) (xy 105.894614 107.62138) (xy 105.894609 107.621382) (xy 105.758583 107.701827)
+				(xy 105.758574 107.701834) (xy 105.722681 107.737728) (xy 105.661358 107.771213) (xy 105.591666 107.766229)
+				(xy 105.547319 107.737728) (xy 105.511425 107.701834) (xy 105.511416 107.701827) (xy 105.37539 107.621382)
+				(xy 105.375385 107.62138) (xy 105.223633 107.577292) (xy 105.22362 107.57729) (xy 105.188163 107.5745)
+				(xy 104.811849 107.5745) (xy 104.811824 107.574501) (xy 104.776372 107.577291) (xy 104.624614 107.62138)
+				(xy 104.624609 107.621382) (xy 104.488583 107.701827) (xy 104.488574 107.701834) (xy 104.452681 107.737728)
+				(xy 104.391358 107.771213) (xy 104.321666 107.766229) (xy 104.277319 107.737728) (xy 104.241425 107.701834)
+				(xy 104.241416 107.701827) (xy 104.10539 107.621382) (xy 104.105385 107.62138) (xy 103.953633 107.577292)
+				(xy 103.95362 107.57729) (xy 103.918163 107.5745) (xy 103.541849 107.5745) (xy 103.541824 107.574501)
+				(xy 103.506372 107.577291) (xy 103.354614 107.62138) (xy 103.354609 107.621382) (xy 103.218583 107.701827)
+				(xy 103.218574 107.701834) (xy 103.106834 107.813574) (xy 103.106827 107.813583) (xy 103.026382 107.949609)
+				(xy 103.02638 107.949614) (xy 102.982292 108.101366) (xy 102.98229 108.101379) (xy 102.9795 108.136829)
+				(xy 102.9795 108.86315) (xy 102.5 108.86315) (xy 102.5 106.624) (xy 102.519685 106.556961) (xy 102.572489 106.511206)
+				(xy 102.624 106.5) (xy 109.876 106.5)
+			)
+		)
 	)
 )

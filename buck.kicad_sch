@@ -2311,6 +2311,17 @@
 		)
 		(uuid "f6e5f092-5969-4d3b-b28b-10def8bf3ed4")
 	)
+	(label "12V"
+		(at 63.5 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5774a38a-0a45-4ed4-aa0e-701485a05766")
+	)
 	(hierarchical_label "5V_OUT"
 		(shape output)
 		(at 165.1 77.47 0)
