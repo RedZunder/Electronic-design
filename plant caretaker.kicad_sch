@@ -2189,7 +2189,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ESP32_C3_ZERO_Library:ESP32_C3_ZERO"
+		(property "Footprint" "ESP32_C3_Zero:ESP32_C3_ZERO"
 			(at 200.66 88.9 0)
 			(effects
 				(font
