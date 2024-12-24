@@ -1,5 +1,5 @@
 (fp_lib_table
   (version 7)
-  (lib (name "OtherComponents")(type "KiCad")(uri "${KIPRJMOD}/OtherComponents.pretty")(options "")(descr ""))
+  (lib (name "OtherComponents")(type "KiCad")(uri "${KIPRJMOD}/Additional_symbols_and_footprints/OtherComponents.pretty")(options "")(descr ""))
   (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/Additional_symbols_and_footprints/Library.pretty")(options "")(descr ""))
 )
