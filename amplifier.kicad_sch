@@ -1159,6 +1159,102 @@
 				)
 			)
 		)
+		(symbol "power:GNDA"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GNDA"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GNDA_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDA_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 129.54 62.23)
@@ -1861,7 +1957,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "power:GNDA")
 		(at 162.56 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1879,7 +1975,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "GNDA"
 			(at 162.56 111.76 0)
 			(effects
 				(font
@@ -1905,7 +2001,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
 			(at 162.56 106.68 0)
 			(effects
 				(font
@@ -2065,7 +2161,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "power:GNDA")
 		(at 165.1 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2083,7 +2179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "GNDA"
 			(at 165.1 74.93 0)
 			(effects
 				(font
@@ -2109,7 +2205,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
 			(at 165.1 69.85 0)
 			(effects
 				(font
@@ -2337,7 +2433,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "power:GNDA")
 		(at 161.29 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2355,7 +2451,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "GNDA"
 			(at 161.29 92.71 0)
 			(effects
 				(font
@@ -2381,7 +2477,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
 			(at 161.29 87.63 0)
 			(effects
 				(font
@@ -2470,7 +2566,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "power:GNDA")
 		(at 95.25 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2488,7 +2584,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "GNDA"
 			(at 95.25 74.93 0)
 			(effects
 				(font
@@ -2514,7 +2610,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
 			(at 95.25 69.85 0)
 			(effects
 				(font
@@ -2604,7 +2700,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "power:GNDA")
 		(at 107.95 87.63 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2622,7 +2718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "GNDA"
 			(at 104.14 87.6299 90)
 			(effects
 				(font
@@ -2649,7 +2745,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
 			(at 107.95 87.63 0)
 			(effects
 				(font
@@ -2671,7 +2767,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "power:GNDA")
 		(at 127 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2689,7 +2785,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "GNDA"
 			(at 127 78.74 0)
 			(effects
 				(font
@@ -2715,7 +2811,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
 			(at 127 73.66 0)
 			(effects
 				(font
@@ -3332,7 +3428,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "power:GNDA")
 		(at 132.08 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3350,7 +3446,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "GNDA"
 			(at 132.08 113.03 0)
 			(effects
 				(font
@@ -3376,7 +3472,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
 			(at 132.08 107.95 0)
 			(effects
 				(font
@@ -3468,7 +3564,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "power:GNDA")
 		(at 146.05 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3486,7 +3582,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "GNDA"
 			(at 146.05 73.66 0)
 			(effects
 				(font
@@ -3512,7 +3608,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
 			(at 146.05 68.58 0)
 			(effects
 				(font

@@ -1203,7 +1203,7 @@
 				)
 			)
 		)
-		(symbol "power:GND"
+		(symbol "power:GNDD"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -1220,8 +1220,8 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
+			(property "Value" "GNDD"
+				(at 0 -3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1246,7 +1246,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1264,10 +1264,21 @@
 					(hide yes)
 				)
 			)
-			(symbol "GND_0_1"
+			(symbol "GNDD_0_1"
+				(rectangle
+					(start -1.27 -1.524)
+					(end 1.27 -2.032)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+						(xy 0 0) (xy 0 -1.524)
 					)
 					(stroke
 						(width 0)
@@ -1278,7 +1289,7 @@
 					)
 				)
 			)
-			(symbol "GND_1_1"
+			(symbol "GNDD_1_1"
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
@@ -2996,7 +3007,7 @@
 		(uuid "e67ff63d-a54b-419e-a84a-c3c99502661f")
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "power:GNDD")
 		(at 237.49 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3013,8 +3024,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 237.49 80.264 0)
+		(property "Value" "GNDD"
+			(at 237.49 79.375 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3039,7 +3050,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
 			(at 237.49 76.2 0)
 			(effects
 				(font
@@ -3128,7 +3139,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "power:GNDD")
 		(at 240.03 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3145,8 +3156,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 240.03 54.356 0)
+		(property "Value" "GNDD"
+			(at 240.03 53.975 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3171,7 +3182,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
 			(at 240.03 50.8 0)
 			(effects
 				(font
@@ -3261,7 +3272,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "power:GNDD")
 		(at 45.72 139.7 0)
 		(mirror y)
 		(unit 1)
@@ -3280,8 +3291,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 45.72 144.78 0)
+		(property "Value" "GNDD"
+			(at 45.72 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3306,7 +3317,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
 			(at 45.72 139.7 0)
 			(effects
 				(font
@@ -3529,7 +3540,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "power:GNDD")
 		(at 129.54 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3546,8 +3557,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 132.842 86.614 0)
+		(property "Value" "GNDD"
+			(at 129.54 88.265 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3572,7 +3583,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
 			(at 129.54 85.09 0)
 			(effects
 				(font
@@ -3663,7 +3674,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "power:GNDD")
 		(at 129.54 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3680,8 +3691,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 132.842 76.454 0)
+		(property "Value" "GNDD"
+			(at 129.54 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3706,7 +3717,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
 			(at 129.54 74.93 0)
 			(effects
 				(font
@@ -3728,7 +3739,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "power:GNDD")
 		(at 113.03 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3745,8 +3756,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 113.03 67.31 0)
+		(property "Value" "GNDD"
+			(at 113.03 65.405 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3771,7 +3782,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
 			(at 113.03 62.23 0)
 			(effects
 				(font
@@ -3927,7 +3938,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "power:GNDD")
 		(at 146.05 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3944,8 +3955,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 146.05 121.92 0)
+		(property "Value" "GNDD"
+			(at 146.05 121.285 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3970,7 +3981,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
 			(at 146.05 118.11 0)
 			(effects
 				(font
@@ -3992,7 +4003,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "power:GNDD")
 		(at 45.72 161.29 0)
 		(mirror y)
 		(unit 1)
@@ -4011,8 +4022,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 45.72 166.37 0)
+		(property "Value" "GNDD"
+			(at 45.72 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4037,7 +4048,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
 			(at 45.72 161.29 0)
 			(effects
 				(font
@@ -4059,7 +4070,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "power:GNDD")
 		(at 86.36 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4077,8 +4088,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 86.36 185.42 0)
+		(property "Value" "GNDD"
+			(at 86.36 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4103,7 +4114,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
 			(at 86.36 180.34 0)
 			(effects
 				(font
@@ -4688,7 +4699,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "power:GNDD")
 		(at 137.16 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4705,8 +4716,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 137.16 110.49 0)
+		(property "Value" "GNDD"
+			(at 137.16 109.855 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4731,7 +4742,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
 			(at 137.16 106.68 0)
 			(effects
 				(font
@@ -4889,7 +4900,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "power:GNDD")
 		(at 45.72 181.61 0)
 		(mirror y)
 		(unit 1)
@@ -4908,8 +4919,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 45.72 186.69 0)
+		(property "Value" "GNDD"
+			(at 45.72 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4934,7 +4945,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
 			(at 45.72 181.61 0)
 			(effects
 				(font
@@ -5293,7 +5304,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "power:GNDD")
 		(at 135.89 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5310,8 +5321,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 135.89 66.04 0)
+		(property "Value" "GNDD"
+			(at 135.89 65.405 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5336,7 +5347,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
 			(at 135.89 62.23 0)
 			(effects
 				(font
@@ -5837,7 +5848,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "power:GNDD")
 		(at 148.59 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5854,8 +5865,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 148.59 146.05 0)
+		(property "Value" "GNDD"
+			(at 148.59 144.145 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5880,7 +5891,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
 			(at 148.59 140.97 0)
 			(effects
 				(font
