@@ -2263,7 +2263,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 77.47) (xy 152.4 77.47)
+			(xy 147.32 77.47) (xy 149.86 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2300,6 +2300,16 @@
 			(type default)
 		)
 		(uuid "ecf3aef9-f8a4-437a-b086-1f64681958d4")
+	)
+	(wire
+		(pts
+			(xy 157.48 77.47) (xy 160.02 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3ea4a52-b202-4747-ad9e-39a52ecab4e5")
 	)
 	(wire
 		(pts
@@ -2918,7 +2928,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 156.21 77.47 270)
+		(at 153.67 77.47 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2927,7 +2937,7 @@
 		(dnp no)
 		(uuid "63e166c6-2db3-44e0-ba2d-b930a0990cb4")
 		(property "Reference" "L1"
-			(at 156.21 72.39 90)
+			(at 153.67 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2935,7 +2945,7 @@
 			)
 		)
 		(property "Value" "33u"
-			(at 156.21 74.93 90)
+			(at 153.67 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2943,7 +2953,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 156.21 77.47 0)
+			(at 153.67 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2952,7 +2962,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 156.21 77.47 0)
+			(at 153.67 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2961,7 +2971,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 156.21 77.47 0)
+			(at 153.67 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
