@@ -3096,7 +3096,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OtherComponents:FerriteBead_742861160_0603"
+		(property "Footprint" "FerriteBead:FerriteBead_742861160_0603"
 			(at 80.01 156.718 90)
 			(effects
 				(font
@@ -4857,7 +4857,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OtherComponents:FerriteBead_742861160_0603"
+		(property "Footprint" "FerriteBead:FerriteBead_742861160_0603"
 			(at 76.2 164.592 90)
 			(effects
 				(font

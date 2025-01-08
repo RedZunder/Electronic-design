@@ -3251,7 +3251,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2ba5356-b8fd-4ef4-9c34-c1b7e7dd569c")
-		(property "Reference" "#PWR36"
+		(property "Reference" "#PWR036"
 			(at 62.23 59.69 0)
 			(effects
 				(font
@@ -3301,7 +3301,7 @@
 		(instances
 			(project "plant caretaker"
 				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906/57a337a3-c367-4ad3-adc0-1aeb321dd5f9"
-					(reference "#PWR36")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
