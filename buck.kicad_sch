@@ -2841,11 +2841,7 @@
 				(justify right)
 			)
 		)
-<<<<<<< HEAD
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical_SMD_Pin1Left"
-=======
 		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical_SMD_Pin1Left"
->>>>>>> DarioPCB
 			(at 83.82 97.79 0)
 			(effects
 				(font
