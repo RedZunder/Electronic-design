@@ -514,6 +514,164 @@
 				)
 			)
 		)
+		(symbol "Device:C_Polarized"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:FerriteBead"
 			(pin_numbers hide)
 			(pin_names
@@ -1009,16 +1167,28 @@
 		(uuid "30a8af9a-ba97-4217-bfd2-4e3bda6546cd")
 	)
 	(junction
+		(at 165.1 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "456a7571-10e2-4b97-8d21-92ee8ba7e179")
+	)
+	(junction
 		(at 161.29 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "558c5016-0304-462d-8999-a55c8ed3cb35")
 	)
 	(junction
-		(at 162.56 97.79)
+		(at 177.8 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "782c6c6e-85b6-4b4c-bf0f-d4cbef4d2d86")
+		(uuid "63d04341-1b84-4302-9a9b-ad35c8674328")
+	)
+	(junction
+		(at 175.26 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ff8c2bc-bc57-4555-96d3-dfd295ad55dc")
 	)
 	(junction
 		(at 146.05 58.42)
@@ -1204,13 +1374,23 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 113.03) (xy 147.32 113.03)
+			(xy 184.15 113.03) (xy 177.8 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "60665f4e-708b-49fe-8480-6305cbce89c4")
+	)
+	(wire
+		(pts
+			(xy 158.75 93.98) (xy 175.26 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6382b709-899d-47f8-95eb-015be24372e9")
 	)
 	(wire
 		(pts
@@ -1254,6 +1434,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 113.03) (xy 149.86 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74e9b121-2880-43d4-8047-34738792ea46")
+	)
+	(wire
+		(pts
 			(xy 107.95 87.63) (xy 111.76 87.63)
 		)
 		(stroke
@@ -1281,16 +1471,6 @@
 			(type default)
 		)
 		(uuid "798c21cd-40ef-4063-9795-06f659939713")
-	)
-	(wire
-		(pts
-			(xy 157.48 97.79) (xy 162.56 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a86c784-0b02-4ff2-b926-2dd2a3bcf5b1")
 	)
 	(wire
 		(pts
@@ -1334,7 +1514,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 105.41) (xy 162.56 106.68)
+			(xy 165.1 105.41) (xy 165.1 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1351,6 +1531,26 @@
 			(type default)
 		)
 		(uuid "8d0a727d-fc6f-4b60-a7ed-8a3cd9e42830")
+	)
+	(wire
+		(pts
+			(xy 165.1 97.79) (xy 184.15 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "954e626c-2f33-4b43-ad25-fc252efd4f7d")
+	)
+	(wire
+		(pts
+			(xy 165.1 97.79) (xy 162.56 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95af6934-011f-4b0e-b9a3-ee01a9adc87e")
 	)
 	(wire
 		(pts
@@ -1424,13 +1624,23 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 93.98) (xy 184.15 93.98)
+			(xy 147.32 93.98) (xy 151.13 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b0cc065d-3f2b-4721-833e-b2664e207d9e")
+	)
+	(wire
+		(pts
+			(xy 177.8 104.14) (xy 177.8 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1c115b1-e21c-4033-bf55-12b1bb2751c6")
 	)
 	(wire
 		(pts
@@ -1464,13 +1674,23 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 97.79) (xy 149.86 97.79)
+			(xy 147.32 97.79) (xy 154.94 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cc57fbee-4522-4066-ac01-bbcb16dc0952")
+	)
+	(wire
+		(pts
+			(xy 175.26 86.36) (xy 175.26 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce9b6972-e254-45c5-8efa-8964ff344850")
 	)
 	(wire
 		(pts
@@ -1494,6 +1714,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 113.03) (xy 157.48 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3e8e46b-ddb4-4456-b329-36314ce9e3e7")
+	)
+	(wire
+		(pts
 			(xy 102.87 72.39) (xy 102.87 80.01)
 		)
 		(stroke
@@ -1504,13 +1734,13 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 97.79) (xy 184.15 97.79)
+			(xy 175.26 93.98) (xy 184.15 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eda0684a-bd04-4216-a269-182fb8022b51")
+		(uuid "f22e69ad-cc49-4655-a8e7-e50b95b87000")
 	)
 	(text "Left Speaker Input"
 		(exclude_from_sim no)
@@ -1704,7 +1934,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 162.56 106.68 0)
+		(at 165.1 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1712,8 +1942,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0456c2ed-9eca-4198-aa15-b4673789a68e")
-		(property "Reference" "#PWR034"
-			(at 162.56 113.03 0)
+		(property "Reference" "#PWR34"
+			(at 165.1 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1722,7 +1952,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 162.56 111.76 0)
+			(at 165.1 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1730,7 +1960,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 106.68 0)
+			(at 165.1 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1739,7 +1969,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 106.68 0)
+			(at 165.1 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1748,7 +1978,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 162.56 106.68 0)
+			(at 165.1 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1762,7 +1992,7 @@
 		(instances
 			(project "plant caretaker"
 				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906/64bd70cc-1431-45fc-8946-041e9631b1bb"
-					(reference "#PWR034")
+					(reference "#PWR34")
 					(unit 1)
 				)
 			)
@@ -1839,16 +2069,16 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 146.05 62.23 0)
+		(at 175.26 90.17 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "196ab0d1-2531-4f9a-b4f8-ff596ddcb2d7")
-		(property "Reference" "C13"
-			(at 149.86 60.9599 0)
+		(uuid "0bd97a16-639b-4cb7-86a1-2e143429e22a")
+		(property "Reference" "C25"
+			(at 171.45 91.4401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1856,8 +2086,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470u"
-			(at 149.86 63.4999 0)
+		(property "Value" "220p"
+			(at 171.45 88.9001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1865,8 +2095,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10.5"
-			(at 147.0152 66.04 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 174.2948 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1875,7 +2105,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 146.05 62.23 0)
+			(at 175.26 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1884,7 +2114,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 146.05 62.23 0)
+			(at 175.26 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1893,15 +2123,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "ff4b32e6-fb17-4098-9cc7-d1629f111e4a")
+			(uuid "41053a81-554d-4f40-96a1-1070be0d6e29")
 		)
 		(pin "1"
-			(uuid "d4a38973-b31a-4885-9b1a-c1def2501e05")
+			(uuid "ce2d9b3f-d007-4c22-ba0e-6e360a5a8897")
 		)
 		(instances
 			(project "plant caretaker"
 				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906/64bd70cc-1431-45fc-8946-041e9631b1bb"
-					(reference "C13")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -1986,7 +2216,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ab39e0e-138e-4e7f-b669-90d4c4c139fd")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR33"
 			(at 165.1 76.2 0)
 			(effects
 				(font
@@ -2036,7 +2266,7 @@
 		(instances
 			(project "plant caretaker"
 				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906/64bd70cc-1431-45fc-8946-041e9631b1bb"
-					(reference "#PWR033")
+					(reference "#PWR33")
 					(unit 1)
 				)
 			)
@@ -2052,7 +2282,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3416bfc7-5841-4f0d-aaae-01c17727484a")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR11"
 			(at 134.62 114.3 0)
 			(effects
 				(font
@@ -2102,7 +2332,77 @@
 		(instances
 			(project "plant caretaker"
 				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906/64bd70cc-1431-45fc-8946-041e9631b1bb"
-					(reference "#PWR011")
+					(reference "#PWR11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 146.05 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "454ed804-5a29-43b4-8555-dde2c093c05d")
+		(property "Reference" "C13"
+			(at 149.86 60.0709 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470u"
+			(at 149.86 62.6109 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10.5"
+			(at 147.0152 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 146.05 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6429b654-f632-459b-a96f-1b75fd2204a7")
+		)
+		(pin "2"
+			(uuid "5ccf7fc8-f641-4eb2-bb9d-211209556e1d")
+		)
+		(instances
+			(project "plant caretaker"
+				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906/64bd70cc-1431-45fc-8946-041e9631b1bb"
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -2179,6 +2479,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 153.67 113.03 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "525feaa4-c815-44f4-9b74-9cb07c27e371")
+		(property "Reference" "FB6"
+			(at 153.7208 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FerriteBead"
+			(at 153.7208 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FerriteBead:FerriteBead_742861160_0603"
+			(at 153.67 111.252 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ferrite bead"
+			(at 153.67 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4c3b5dc1-7019-4fd0-ad74-71a407260bb6")
+		)
+		(pin "1"
+			(uuid "a6e9303e-2ee8-426e-93dc-ccd0610a39d6")
+		)
+		(instances
+			(project "plant caretaker"
+				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906/64bd70cc-1431-45fc-8946-041e9631b1bb"
+					(reference "FB6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 161.29 87.63 0)
 		(unit 1)
@@ -2188,7 +2556,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58e601d8-2e76-4799-ae9b-bdfd0dca564b")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR35"
 			(at 161.29 93.98 0)
 			(effects
 				(font
@@ -2238,7 +2606,145 @@
 		(instances
 			(project "plant caretaker"
 				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906/64bd70cc-1431-45fc-8946-041e9631b1bb"
-					(reference "#PWR035")
+					(reference "#PWR35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 154.94 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61073664-98f5-41e4-be95-acb509a11d3e")
+		(property "Reference" "FB5"
+			(at 154.8892 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FerriteBead"
+			(at 154.8892 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FerriteBead:FerriteBead_742861160_0603"
+			(at 154.94 95.758 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ferrite bead"
+			(at 154.94 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c0e319a8-2522-49de-b2b2-f1606c23d08a")
+		)
+		(pin "1"
+			(uuid "b97b1632-d571-4c0e-b79f-76e008f00c29")
+		)
+		(instances
+			(project "plant caretaker"
+				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906/64bd70cc-1431-45fc-8946-041e9631b1bb"
+					(reference "FB5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 177.8 109.22 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e592d24-19f2-4d54-ab9b-55807cc38d19")
+		(property "Reference" "C26"
+			(at 173.99 110.4901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220p"
+			(at 173.99 107.9501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 176.8348 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 177.8 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "08ad9b43-1c8c-448f-bbcf-19aa9ef05133")
+		)
+		(pin "1"
+			(uuid "48ba67cc-f959-460b-8fd7-ee6500b76fd7")
+		)
+		(instances
+			(project "plant caretaker"
+				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906/64bd70cc-1431-45fc-8946-041e9631b1bb"
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -2321,7 +2827,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86eccdbd-a0d4-4191-81b0-a5e4140c1cfc")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR12"
 			(at 95.25 76.2 0)
 			(effects
 				(font
@@ -2371,7 +2877,73 @@
 		(instances
 			(project "plant caretaker"
 				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906/64bd70cc-1431-45fc-8946-041e9631b1bb"
-					(reference "#PWR012")
+					(reference "#PWR12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 175.26 85.09 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93131639-c4ad-40fc-aa25-eeb78a8d05d2")
+		(property "Reference" "#PWR38"
+			(at 175.26 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 175.26 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 175.26 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0eee183f-ab5e-4ed0-94d7-637a762cf08b")
+		)
+		(instances
+			(project "plant caretaker"
+				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906/64bd70cc-1431-45fc-8946-041e9631b1bb"
+					(reference "#PWR38")
 					(unit 1)
 				)
 			)
@@ -2403,7 +2975,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OtherComponents:FerriteBead_742861160_0603"
+		(property "Footprint" "FerriteBead:FerriteBead_742861160_0603"
 			(at 156.21 80.518 90)
 			(effects
 				(font
@@ -2455,7 +3027,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9cb0b5e8-4999-490d-b876-9b0aebec65a0")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR13"
 			(at 101.6 87.63 0)
 			(effects
 				(font
@@ -2506,7 +3078,7 @@
 		(instances
 			(project "plant caretaker"
 				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906/64bd70cc-1431-45fc-8946-041e9631b1bb"
-					(reference "#PWR013")
+					(reference "#PWR13")
 					(unit 1)
 				)
 			)
@@ -2522,7 +3094,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0ef1c91-47c7-4647-a696-d62f8200a2f9")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR14"
 			(at 127 80.01 0)
 			(effects
 				(font
@@ -2572,7 +3144,7 @@
 		(instances
 			(project "plant caretaker"
 				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906/64bd70cc-1431-45fc-8946-041e9631b1bb"
-					(reference "#PWR014")
+					(reference "#PWR14")
 					(unit 1)
 				)
 			)
@@ -2716,16 +3288,15 @@
 	)
 	(symbol
 		(lib_id "Device:FerriteBead")
-		(at 153.67 97.79 90)
+		(at 158.75 97.79 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bf9c2af3-d1cb-41c6-b541-f89173a2f253")
 		(property "Reference" "FB4"
-			(at 153.6192 90.17 90)
+			(at 157.226 104.648 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2733,15 +3304,15 @@
 			)
 		)
 		(property "Value" "FerriteBead"
-			(at 153.6192 92.71 90)
+			(at 156.718 102.362 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "OtherComponents:FerriteBead_742861160_0603"
-			(at 153.67 99.568 90)
+		(property "Footprint" "FerriteBead:FerriteBead_742861160_0603"
+			(at 158.75 99.568 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2750,7 +3321,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 153.67 97.79 0)
+			(at 158.75 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2759,7 +3330,7 @@
 			)
 		)
 		(property "Description" "Ferrite bead"
-			(at 153.67 97.79 0)
+			(at 158.75 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2923,7 +3494,11 @@
 				(justify left)
 			)
 		)
+<<<<<<< HEAD
 		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical_SMD_Pin1Left"
+=======
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical_SMD_Pin1Left"
+>>>>>>> DarioPCB
 			(at 189.23 110.49 0)
 			(effects
 				(font
@@ -3036,6 +3611,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 177.8 104.14 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec8397b3-7251-4020-bed1-7e1880bb4a33")
+		(property "Reference" "#PWR41"
+			(at 177.8 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 177.8 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 177.8 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e98f2fd-4386-4045-8650-e131268ae3a7")
+		)
+		(instances
+			(project "plant caretaker"
+				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906/64bd70cc-1431-45fc-8946-041e9631b1bb"
+					(reference "#PWR41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 116.84 72.39 90)
 		(unit 1)
@@ -3131,7 +3772,11 @@
 				(justify left)
 			)
 		)
+<<<<<<< HEAD
 		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical_SMD_Pin1Left"
+=======
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical_SMD_Pin1Left"
+>>>>>>> DarioPCB
 			(at 189.23 90.17 0)
 			(effects
 				(font
@@ -3183,7 +3828,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f65dfef7-7450-4d9a-b146-7d9be4b2f590")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR15"
 			(at 132.08 114.3 0)
 			(effects
 				(font
@@ -3233,7 +3878,7 @@
 		(instances
 			(project "plant caretaker"
 				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906/64bd70cc-1431-45fc-8946-041e9631b1bb"
-					(reference "#PWR015")
+					(reference "#PWR15")
 					(unit 1)
 				)
 			)
@@ -3241,7 +3886,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 162.56 101.6 0)
+		(at 165.1 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3250,7 +3895,7 @@
 		(fields_autoplaced yes)
 		(uuid "f72775aa-f203-4bcd-a922-1b8dfbe5542c")
 		(property "Reference" "C9"
-			(at 166.37 100.3299 0)
+			(at 168.91 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3259,7 +3904,7 @@
 			)
 		)
 		(property "Value" "220p"
-			(at 166.37 102.8699 0)
+			(at 168.91 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3268,7 +3913,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 163.5252 105.41 0)
+			(at 166.0652 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3277,7 +3922,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 101.6 0)
+			(at 165.1 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3286,7 +3931,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 162.56 101.6 0)
+			(at 165.1 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3319,7 +3964,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fac859b3-153e-43a6-8ba7-0a987a285e81")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR9"
 			(at 146.05 74.93 0)
 			(effects
 				(font
@@ -3369,7 +4014,7 @@
 		(instances
 			(project "plant caretaker"
 				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906/64bd70cc-1431-45fc-8946-041e9631b1bb"
-					(reference "#PWR09")
+					(reference "#PWR9")
 					(unit 1)
 				)
 			)
