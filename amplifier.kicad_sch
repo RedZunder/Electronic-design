@@ -1159,102 +1159,6 @@
 				)
 			)
 		)
-		(symbol "power:GNDA"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GNDA"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GNDA_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GNDA_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 	)
 	(junction
 		(at 129.54 62.23)
@@ -2029,7 +1933,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDA")
+		(lib_id "power:GND")
 		(at 165.1 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2038,7 +1942,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0456c2ed-9eca-4198-aa15-b4673789a68e")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR34"
 			(at 165.1 113.03 0)
 			(effects
 				(font
@@ -2047,7 +1951,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDA"
+		(property "Value" "GND"
 			(at 165.1 111.76 0)
 			(effects
 				(font
@@ -2073,7 +1977,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 165.1 106.68 0)
 			(effects
 				(font
@@ -2088,7 +1992,7 @@
 		(instances
 			(project "plant caretaker"
 				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906/64bd70cc-1431-45fc-8946-041e9631b1bb"
-					(reference "#PWR034")
+					(reference "#PWR34")
 					(unit 1)
 				)
 			)
@@ -2303,7 +2207,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDA")
+		(lib_id "power:GND")
 		(at 165.1 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2312,7 +2216,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ab39e0e-138e-4e7f-b669-90d4c4c139fd")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR33"
 			(at 165.1 76.2 0)
 			(effects
 				(font
@@ -2321,7 +2225,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDA"
+		(property "Value" "GND"
 			(at 165.1 74.93 0)
 			(effects
 				(font
@@ -2347,7 +2251,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 165.1 69.85 0)
 			(effects
 				(font
@@ -2362,7 +2266,7 @@
 		(instances
 			(project "plant caretaker"
 				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906/64bd70cc-1431-45fc-8946-041e9631b1bb"
-					(reference "#PWR033")
+					(reference "#PWR33")
 					(unit 1)
 				)
 			)
@@ -2378,7 +2282,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3416bfc7-5841-4f0d-aaae-01c17727484a")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR11"
 			(at 134.62 114.3 0)
 			(effects
 				(font
@@ -2428,7 +2332,7 @@
 		(instances
 			(project "plant caretaker"
 				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906/64bd70cc-1431-45fc-8946-041e9631b1bb"
-					(reference "#PWR011")
+					(reference "#PWR11")
 					(unit 1)
 				)
 			)
@@ -2643,7 +2547,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDA")
+		(lib_id "power:GND")
 		(at 161.29 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2652,7 +2556,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58e601d8-2e76-4799-ae9b-bdfd0dca564b")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR35"
 			(at 161.29 93.98 0)
 			(effects
 				(font
@@ -2661,7 +2565,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDA"
+		(property "Value" "GND"
 			(at 161.29 92.71 0)
 			(effects
 				(font
@@ -2687,7 +2591,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 161.29 87.63 0)
 			(effects
 				(font
@@ -2702,7 +2606,7 @@
 		(instances
 			(project "plant caretaker"
 				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906/64bd70cc-1431-45fc-8946-041e9631b1bb"
-					(reference "#PWR035")
+					(reference "#PWR35")
 					(unit 1)
 				)
 			)
@@ -2914,7 +2818,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDA")
+		(lib_id "power:GND")
 		(at 95.25 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2923,7 +2827,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86eccdbd-a0d4-4191-81b0-a5e4140c1cfc")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR12"
 			(at 95.25 76.2 0)
 			(effects
 				(font
@@ -2932,7 +2836,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDA"
+		(property "Value" "GND"
 			(at 95.25 74.93 0)
 			(effects
 				(font
@@ -2958,7 +2862,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 95.25 69.85 0)
 			(effects
 				(font
@@ -2973,14 +2877,14 @@
 		(instances
 			(project "plant caretaker"
 				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906/64bd70cc-1431-45fc-8946-041e9631b1bb"
-					(reference "#PWR012")
+					(reference "#PWR12")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GNDA")
+		(lib_id "power:GND")
 		(at 175.26 85.09 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2989,7 +2893,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93131639-c4ad-40fc-aa25-eeb78a8d05d2")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR38"
 			(at 175.26 78.74 0)
 			(effects
 				(font
@@ -2998,7 +2902,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDA"
+		(property "Value" "GND"
 			(at 175.26 80.01 0)
 			(effects
 				(font
@@ -3024,7 +2928,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 175.26 85.09 0)
 			(effects
 				(font
@@ -3039,7 +2943,7 @@
 		(instances
 			(project "plant caretaker"
 				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906/64bd70cc-1431-45fc-8946-041e9631b1bb"
-					(reference "#PWR038")
+					(reference "#PWR38")
 					(unit 1)
 				)
 			)
@@ -3114,7 +3018,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDA")
+		(lib_id "power:GND")
 		(at 107.95 87.63 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3123,7 +3027,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9cb0b5e8-4999-490d-b876-9b0aebec65a0")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR13"
 			(at 101.6 87.63 0)
 			(effects
 				(font
@@ -3132,7 +3036,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDA"
+		(property "Value" "GND"
 			(at 104.14 87.6299 90)
 			(effects
 				(font
@@ -3159,7 +3063,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 107.95 87.63 0)
 			(effects
 				(font
@@ -3174,14 +3078,14 @@
 		(instances
 			(project "plant caretaker"
 				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906/64bd70cc-1431-45fc-8946-041e9631b1bb"
-					(reference "#PWR013")
+					(reference "#PWR13")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GNDA")
+		(lib_id "power:GND")
 		(at 127 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3190,7 +3094,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0ef1c91-47c7-4647-a696-d62f8200a2f9")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR14"
 			(at 127 80.01 0)
 			(effects
 				(font
@@ -3199,7 +3103,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDA"
+		(property "Value" "GND"
 			(at 127 78.74 0)
 			(effects
 				(font
@@ -3225,7 +3129,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 127 73.66 0)
 			(effects
 				(font
@@ -3240,7 +3144,7 @@
 		(instances
 			(project "plant caretaker"
 				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906/64bd70cc-1431-45fc-8946-041e9631b1bb"
-					(reference "#PWR014")
+					(reference "#PWR14")
 					(unit 1)
 				)
 			)
@@ -3703,7 +3607,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDA")
+		(lib_id "power:GND")
 		(at 177.8 104.14 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3712,7 +3616,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec8397b3-7251-4020-bed1-7e1880bb4a33")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR41"
 			(at 177.8 97.79 0)
 			(effects
 				(font
@@ -3721,7 +3625,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDA"
+		(property "Value" "GND"
 			(at 177.8 99.06 0)
 			(effects
 				(font
@@ -3747,7 +3651,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 177.8 104.14 0)
 			(effects
 				(font
@@ -3762,7 +3666,7 @@
 		(instances
 			(project "plant caretaker"
 				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906/64bd70cc-1431-45fc-8946-041e9631b1bb"
-					(reference "#PWR041")
+					(reference "#PWR41")
 					(unit 1)
 				)
 			)
@@ -3907,7 +3811,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDA")
+		(lib_id "power:GND")
 		(at 132.08 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3916,7 +3820,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f65dfef7-7450-4d9a-b146-7d9be4b2f590")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR15"
 			(at 132.08 114.3 0)
 			(effects
 				(font
@@ -3925,7 +3829,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDA"
+		(property "Value" "GND"
 			(at 132.08 113.03 0)
 			(effects
 				(font
@@ -3951,7 +3855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 132.08 107.95 0)
 			(effects
 				(font
@@ -3966,7 +3870,7 @@
 		(instances
 			(project "plant caretaker"
 				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906/64bd70cc-1431-45fc-8946-041e9631b1bb"
-					(reference "#PWR015")
+					(reference "#PWR15")
 					(unit 1)
 				)
 			)
@@ -4043,7 +3947,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDA")
+		(lib_id "power:GND")
 		(at 146.05 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4052,7 +3956,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fac859b3-153e-43a6-8ba7-0a987a285e81")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR9"
 			(at 146.05 74.93 0)
 			(effects
 				(font
@@ -4061,7 +3965,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDA"
+		(property "Value" "GND"
 			(at 146.05 73.66 0)
 			(effects
 				(font
@@ -4087,7 +3991,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 146.05 68.58 0)
 			(effects
 				(font
@@ -4102,7 +4006,7 @@
 		(instances
 			(project "plant caretaker"
 				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906/64bd70cc-1431-45fc-8946-041e9631b1bb"
-					(reference "#PWR09")
+					(reference "#PWR9")
 					(unit 1)
 				)
 			)
