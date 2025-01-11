@@ -1864,6 +1864,16 @@
 		)
 		(uuid "687b6fc2-31da-44bb-b114-c43eb1559884")
 	)
+	(text "Ground for Power ground \nof Audio amplifier\n"
+		(exclude_from_sim no)
+		(at 244.094 27.686 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6c5c5f0f-45db-4e72-bebe-f433fe47d7c6")
+	)
 	(label "CODEC.DATAI"
 		(at 226.06 101.6 0)
 		(fields_autoplaced yes)
@@ -1973,7 +1983,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ca67e69-5872-4635-b6e2-e423b92ab997")
-		(property "Reference" "#PWR6"
+		(property "Reference" "#PWR06"
 			(at 175.26 81.28 0)
 			(effects
 				(font
@@ -2023,7 +2033,7 @@
 		(instances
 			(project "plant caretaker"
 				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906"
-					(reference "#PWR6")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -2039,7 +2049,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0efea391-e052-4c41-bd22-880ca41bb199")
-		(property "Reference" "#PWR1"
+		(property "Reference" "#PWR01"
 			(at 189.23 86.36 0)
 			(effects
 				(font
@@ -2089,7 +2099,7 @@
 		(instances
 			(project "plant caretaker"
 				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906"
-					(reference "#PWR1")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -2158,72 +2168,6 @@
 			(project "plant caretaker"
 				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906"
 					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 245.11 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "358d186f-fc8a-41eb-a527-1d54b55ffdbb")
-		(property "Reference" "#PWR39"
-			(at 245.11 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 245.11 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 245.11 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 245.11 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 245.11 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7fb347ae-7962-4548-8232-8aa08d7a82b5")
-		)
-		(instances
-			(project "plant caretaker"
-				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906"
-					(reference "#PWR39")
 					(unit 1)
 				)
 			)
@@ -2484,7 +2428,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 256.54 25.4 0)
+		(at 259.08 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2492,8 +2436,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68465d57-ffea-4c25-8aed-dd314796f8d5")
-		(property "Reference" "#PWR5"
-			(at 256.54 31.75 0)
+		(property "Reference" "#PWR05"
+			(at 259.08 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2501,8 +2445,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 256.54 30.48 0)
+		(property "Value" "GNDP"
+			(at 259.08 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2510,7 +2454,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 256.54 25.4 0)
+			(at 259.08 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2519,7 +2463,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 25.4 0)
+			(at 259.08 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2528,7 +2472,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 256.54 25.4 0)
+			(at 259.08 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2542,7 +2486,7 @@
 		(instances
 			(project "plant caretaker"
 				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906"
-					(reference "#PWR5")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -2616,7 +2560,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 259.08 41.91 0)
+		(at 274.32 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2624,8 +2568,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86b582df-87be-4daa-8c84-4041540caf78")
-		(property "Reference" "#PWR10"
-			(at 259.08 48.26 0)
+		(property "Reference" "#PWR010"
+			(at 274.32 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2634,7 +2578,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 259.08 46.99 0)
+			(at 274.32 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2642,7 +2586,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 259.08 41.91 0)
+			(at 274.32 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2651,7 +2595,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 41.91 0)
+			(at 274.32 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2660,7 +2604,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 259.08 41.91 0)
+			(at 274.32 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2674,7 +2618,7 @@
 		(instances
 			(project "plant caretaker"
 				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906"
-					(reference "#PWR10")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -2682,7 +2626,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 256.54 25.4 0)
+		(at 259.08 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2691,7 +2635,7 @@
 		(fields_autoplaced yes)
 		(uuid "a0c4c057-2d6c-41ce-8890-71279227fb29")
 		(property "Reference" "#FLG02"
-			(at 256.54 23.495 0)
+			(at 259.08 26.035 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2700,7 +2644,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 256.54 20.32 0)
+			(at 259.08 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2708,7 +2652,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 256.54 25.4 0)
+			(at 259.08 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2717,7 +2661,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 256.54 25.4 0)
+			(at 259.08 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2726,7 +2670,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 256.54 25.4 0)
+			(at 259.08 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2748,7 +2692,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 259.08 41.91 0)
+		(at 274.32 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2757,7 +2701,7 @@
 		(fields_autoplaced yes)
 		(uuid "b5262170-8cc9-4174-8a14-bd6f01d5cca5")
 		(property "Reference" "#FLG04"
-			(at 259.08 40.005 0)
+			(at 274.32 26.035 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2766,7 +2710,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 259.08 36.83 0)
+			(at 274.32 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2774,7 +2718,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 259.08 41.91 0)
+			(at 274.32 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2783,7 +2727,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 259.08 41.91 0)
+			(at 274.32 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2792,7 +2736,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 259.08 41.91 0)
+			(at 274.32 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2807,72 +2751,6 @@
 			(project "plant caretaker"
 				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906"
 					(reference "#FLG04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 245.11 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c78891c0-11b6-4496-903a-fe48feeefdd2")
-		(property "Reference" "#FLG011"
-			(at 245.11 31.115 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 245.11 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 245.11 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 245.11 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 245.11 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d5f67b8b-09da-445f-af72-08ac92b3adc6")
-		)
-		(instances
-			(project "plant caretaker"
-				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906"
-					(reference "#FLG011")
 					(unit 1)
 				)
 			)

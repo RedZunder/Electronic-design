@@ -1534,6 +1534,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 109.22) (xy 134.62 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dfcfbc3-9919-4b53-8382-e5d8ff2eea43")
+	)
+	(wire
+		(pts
 			(xy 165.1 97.79) (xy 184.15 97.79)
 		)
 		(stroke
@@ -1742,6 +1752,16 @@
 		)
 		(uuid "f22e69ad-cc49-4655-a8e7-e50b95b87000")
 	)
+	(wire
+		(pts
+			(xy 137.16 109.22) (xy 134.62 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f70c096b-1c11-4c43-a06c-3e66960dae43")
+	)
 	(text "Left Speaker Input"
 		(exclude_from_sim no)
 		(at 87.122 80.264 0)
@@ -1942,7 +1962,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0456c2ed-9eca-4198-aa15-b4673789a68e")
-		(property "Reference" "#PWR34"
+		(property "Reference" "#PWR034"
 			(at 165.1 113.03 0)
 			(effects
 				(font
@@ -1992,7 +2012,7 @@
 		(instances
 			(project "plant caretaker"
 				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906/64bd70cc-1431-45fc-8946-041e9631b1bb"
-					(reference "#PWR34")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -2216,7 +2236,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ab39e0e-138e-4e7f-b669-90d4c4c139fd")
-		(property "Reference" "#PWR33"
+		(property "Reference" "#PWR033"
 			(at 165.1 76.2 0)
 			(effects
 				(font
@@ -2266,73 +2286,7 @@
 		(instances
 			(project "plant caretaker"
 				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906/64bd70cc-1431-45fc-8946-041e9631b1bb"
-					(reference "#PWR33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 134.62 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3416bfc7-5841-4f0d-aaae-01c17727484a")
-		(property "Reference" "#PWR11"
-			(at 134.62 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 134.62 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 134.62 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e8af3ea9-1c47-4c67-b101-363b313128aa")
-		)
-		(instances
-			(project "plant caretaker"
-				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906/64bd70cc-1431-45fc-8946-041e9631b1bb"
-					(reference "#PWR11")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -2556,7 +2510,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58e601d8-2e76-4799-ae9b-bdfd0dca564b")
-		(property "Reference" "#PWR35"
+		(property "Reference" "#PWR035"
 			(at 161.29 93.98 0)
 			(effects
 				(font
@@ -2606,7 +2560,73 @@
 		(instances
 			(project "plant caretaker"
 				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906/64bd70cc-1431-45fc-8946-041e9631b1bb"
-					(reference "#PWR35")
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 137.16 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ee8af7c-5d14-442e-8c41-6f6fb1a3c638")
+		(property "Reference" "#PWR011"
+			(at 137.16 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDP"
+			(at 137.16 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 137.16 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65ef9f3a-87fa-4145-b6f7-bdc9291f4479")
+		)
+		(instances
+			(project "plant caretaker"
+				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906/64bd70cc-1431-45fc-8946-041e9631b1bb"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -2827,7 +2847,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86eccdbd-a0d4-4191-81b0-a5e4140c1cfc")
-		(property "Reference" "#PWR12"
+		(property "Reference" "#PWR012"
 			(at 95.25 76.2 0)
 			(effects
 				(font
@@ -2877,7 +2897,7 @@
 		(instances
 			(project "plant caretaker"
 				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906/64bd70cc-1431-45fc-8946-041e9631b1bb"
-					(reference "#PWR12")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -2893,7 +2913,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93131639-c4ad-40fc-aa25-eeb78a8d05d2")
-		(property "Reference" "#PWR38"
+		(property "Reference" "#PWR038"
 			(at 175.26 78.74 0)
 			(effects
 				(font
@@ -2943,7 +2963,7 @@
 		(instances
 			(project "plant caretaker"
 				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906/64bd70cc-1431-45fc-8946-041e9631b1bb"
-					(reference "#PWR38")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -3027,7 +3047,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9cb0b5e8-4999-490d-b876-9b0aebec65a0")
-		(property "Reference" "#PWR13"
+		(property "Reference" "#PWR013"
 			(at 101.6 87.63 0)
 			(effects
 				(font
@@ -3078,7 +3098,7 @@
 		(instances
 			(project "plant caretaker"
 				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906/64bd70cc-1431-45fc-8946-041e9631b1bb"
-					(reference "#PWR13")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -3094,7 +3114,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0ef1c91-47c7-4647-a696-d62f8200a2f9")
-		(property "Reference" "#PWR14"
+		(property "Reference" "#PWR014"
 			(at 127 80.01 0)
 			(effects
 				(font
@@ -3144,7 +3164,7 @@
 		(instances
 			(project "plant caretaker"
 				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906/64bd70cc-1431-45fc-8946-041e9631b1bb"
-					(reference "#PWR14")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -3616,7 +3636,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec8397b3-7251-4020-bed1-7e1880bb4a33")
-		(property "Reference" "#PWR41"
+		(property "Reference" "#PWR041"
 			(at 177.8 97.79 0)
 			(effects
 				(font
@@ -3666,7 +3686,7 @@
 		(instances
 			(project "plant caretaker"
 				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906/64bd70cc-1431-45fc-8946-041e9631b1bb"
-					(reference "#PWR41")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -3820,7 +3840,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f65dfef7-7450-4d9a-b146-7d9be4b2f590")
-		(property "Reference" "#PWR15"
+		(property "Reference" "#PWR015"
 			(at 132.08 114.3 0)
 			(effects
 				(font
@@ -3870,7 +3890,7 @@
 		(instances
 			(project "plant caretaker"
 				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906/64bd70cc-1431-45fc-8946-041e9631b1bb"
-					(reference "#PWR15")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -3956,7 +3976,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fac859b3-153e-43a6-8ba7-0a987a285e81")
-		(property "Reference" "#PWR9"
+		(property "Reference" "#PWR09"
 			(at 146.05 74.93 0)
 			(effects
 				(font
@@ -4006,7 +4026,7 @@
 		(instances
 			(project "plant caretaker"
 				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906/64bd70cc-1431-45fc-8946-041e9631b1bb"
-					(reference "#PWR9")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
