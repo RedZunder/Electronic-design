@@ -818,6 +818,127 @@
 				)
 			)
 		)
+		(symbol "Device:NetTie_2"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "NT"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NetTie_2"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Net tie, 2 pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "net tie short"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Net*Tie*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NetTie_2_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NetTie_2_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -1179,10 +1300,22 @@
 		(uuid "558c5016-0304-462d-8999-a55c8ed3cb35")
 	)
 	(junction
+		(at 138.43 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58dbfc80-515a-49f0-97bb-e6bd0f28ad3c")
+	)
+	(junction
 		(at 177.8 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "63d04341-1b84-4302-9a9b-ad35c8674328")
+	)
+	(junction
+		(at 132.08 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c63a81c-870c-473b-a126-c67325969a13")
 	)
 	(junction
 		(at 175.26 93.98)
@@ -1221,6 +1354,16 @@
 			(type default)
 		)
 		(uuid "0d864bab-3af4-4f94-8606-1992f4883022")
+	)
+	(wire
+		(pts
+			(xy 138.43 113.03) (xy 138.43 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16a0a13e-65fb-4884-8921-9feeafc39003")
 	)
 	(polyline
 		(pts
@@ -1374,6 +1517,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 114.3) (xy 138.43 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f6868fb-73a6-4099-909d-811b83b44938")
+	)
+	(wire
+		(pts
 			(xy 184.15 113.03) (xy 177.8 113.03)
 		)
 		(stroke
@@ -1494,6 +1647,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 114.3) (xy 138.43 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "800c4422-7936-4cce-b96e-8660429b6667")
+	)
+	(wire
+		(pts
 			(xy 132.08 62.23) (xy 129.54 62.23)
 		)
 		(stroke
@@ -1531,6 +1694,16 @@
 			(type default)
 		)
 		(uuid "8d0a727d-fc6f-4b60-a7ed-8a3cd9e42830")
+	)
+	(wire
+		(pts
+			(xy 132.08 107.95) (xy 132.08 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d89acca-8e98-43a9-a249-b4f6ab9d95e3")
 	)
 	(wire
 		(pts
@@ -1591,6 +1764,16 @@
 			(type default)
 		)
 		(uuid "9950f72f-5b83-4baf-b8f1-37c63807d20c")
+	)
+	(wire
+		(pts
+			(xy 132.08 114.3) (xy 132.08 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f7053d0-3f49-448c-91c7-5e6b46c2495d")
 	)
 	(wire
 		(pts
@@ -1661,6 +1844,26 @@
 			(type default)
 		)
 		(uuid "b2f949c2-748e-4c11-beb1-60483473f93b")
+	)
+	(wire
+		(pts
+			(xy 137.16 115.57) (xy 137.16 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7c9495e-5425-4760-8363-7438c6617662")
+	)
+	(wire
+		(pts
+			(xy 127 114.3) (xy 132.08 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8235a7e-218d-436a-9f68-87289c41bc12")
 	)
 	(wire
 		(pts
@@ -1754,13 +1957,23 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 109.22) (xy 134.62 109.22)
+			(xy 134.62 109.22) (xy 138.43 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f70c096b-1c11-4c43-a06c-3e66960dae43")
+	)
+	(wire
+		(pts
+			(xy 133.35 113.03) (xy 132.08 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffdc50e1-891c-4be6-9cf0-270c18219bc4")
 	)
 	(text "Left Speaker Input"
 		(exclude_from_sim no)
@@ -2293,6 +2506,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 135.89 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "44936851-2cd7-4250-bed6-26f7a3e32321")
+		(property "Reference" "NT1"
+			(at 142.748 112.014 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 141.732 110.236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Net_Tie:Net_Tie_0.2"
+			(at 135.89 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 135.89 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a42eeb61-77d4-461d-a9e8-11eb6388838b")
+		)
+		(pin "1"
+			(uuid "da60b8ba-2525-4fc7-8dac-e36625749a2e")
+		)
+		(instances
+			(project "plant caretaker"
+				(path "/23b35dcc-615e-4aec-abee-c26cc3d8b906/64bd70cc-1431-45fc-8946-041e9631b1bb"
+					(reference "NT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 146.05 62.23 0)
 		(unit 1)
@@ -2568,7 +2848,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 137.16 109.22 0)
+		(at 137.16 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2577,7 +2857,7 @@
 		(fields_autoplaced yes)
 		(uuid "5ee8af7c-5d14-442e-8c41-6f6fb1a3c638")
 		(property "Reference" "#PWR011"
-			(at 137.16 115.57 0)
+			(at 137.16 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2586,7 +2866,7 @@
 			)
 		)
 		(property "Value" "GNDP"
-			(at 137.16 114.3 0)
+			(at 137.16 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2594,7 +2874,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 109.22 0)
+			(at 137.16 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2603,7 +2883,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 109.22 0)
+			(at 137.16 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2612,7 +2892,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 137.16 109.22 0)
+			(at 137.16 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3832,7 +4112,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 132.08 107.95 0)
+		(at 127 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3841,7 +4121,7 @@
 		(fields_autoplaced yes)
 		(uuid "f65dfef7-7450-4d9a-b146-7d9be4b2f590")
 		(property "Reference" "#PWR015"
-			(at 132.08 114.3 0)
+			(at 127 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3850,7 +4130,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 132.08 113.03 0)
+			(at 127 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3858,7 +4138,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 107.95 0)
+			(at 127 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3867,7 +4147,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 107.95 0)
+			(at 127 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3876,7 +4156,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 132.08 107.95 0)
+			(at 127 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
